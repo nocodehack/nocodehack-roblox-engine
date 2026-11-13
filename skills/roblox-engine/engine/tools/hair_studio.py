@@ -25,6 +25,19 @@ def payload(b):
     return None, None
 
 
+_HEADS = {}
+
+
+def _heads():
+    """First 600 bytes of every cache file (RBXH header with the source URL), read once per run."""
+    if not _HEADS:
+        for f in (RBX / 'rbx-storage').glob('*/*'):
+            try:
+                with open(f, 'rb') as h: _HEADS[f] = h.read(600)
+            except OSError: pass
+    return _HEADS
+
+
 def entries(t0, t1):
     """All cache payloads written in [t0, t1] ms: big ones are files, small ones live inline in the sqlite db."""
     got = []
@@ -40,6 +53,15 @@ def entries(t0, t1):
     for content, in c.execute('select content from files where atime between ? and ? and content is not null', (t0, t1)):
         k, body = payload(content)
         if k: got.append((k, body))
+    urls = set()   # cache HIT: Studio only touches a small header row (URL); the body sits in an older file that starts with the same URL
+    for content, in c.execute('select content from files where atime between ? and ? and content is not null', (t0, t1)):
+        if content[:4] == b'RBXH' and payload(content)[0] is None:
+            n = int.from_bytes(content[8:12], 'little'); urls.add(content[12:12 + n])
+    if urls:
+        for f, head in _heads().items():
+            if any(u in head for u in urls) and not t0 <= f.stat().st_mtime * 1000 <= t1:
+                k, body = payload(f.read_bytes())
+                if k: got.append((k, body))
     c.close()
     return got
 

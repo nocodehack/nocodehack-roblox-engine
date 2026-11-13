@@ -35,6 +35,8 @@ def meta(m): return json.loads((m / 'meta.json').read_text(encoding='utf-8')) if
 def seed(m, kind):
     """manifest folder -> assets/<kind>/<same name>/ with our meta (placement, tags) before the Roblox files arrive."""
     d = A / kind / m.name; d.mkdir(parents=True, exist_ok=True)
+    if (MAN / kind / 'LIBRARY.md').exists() and not (A / kind / 'LIBRARY.md').exists():   # docs tools (rbx_set_doc) update it
+        shutil.copy2(MAN / kind / 'LIBRARY.md', A / kind / 'LIBRARY.md')
     for f in m.iterdir():
         if f.is_file() and not (d / f.name).exists(): shutil.copy2(f, d / f.name)
     return d
@@ -115,13 +117,31 @@ def rbxmesh():
 def collect_hair():
     rbxmesh(); sys.path.insert(0, str(E / 'third_party' / 'RBXMesh'))
     for m in missing('hair'): seed(m, 'hair')
-    import hair_studio; hair_studio.collect('log'); unseed('hair'); status()
+    import hair_studio; hair_studio.collect('log')
+    from hair_fetch import asset, mesh_to_obj   # fallback: meshes Studio kept in memory only, via the public endpoint (some answer 401)
+    from outfit_fetch import thumb
+    import gzip
+    for m in missing('hair'):
+        d = A / 'hair' / m.name; mt = meta(m); mid = re.sub(r'\D', '', mt.get('mesh_id') or '')
+        if not mid or (d / 'mesh.obj').exists(): continue
+        try:
+            b = asset(mid); b = gzip.decompress(b) if b[:2] == bytes((0x1f, 0x8b)) else b
+            mesh_to_obj(b, d / 'mesh.obj')
+            tid = re.sub(r'\D', '', mt.get('tex_id') or mt.get('colormap') or '')
+            if tid and not (d / 'tex.png').exists(): (d / 'tex.png').write_bytes(thumb(tid))
+            print('HAIR (public)', m.name)
+        except Exception as e: print('NOMESH (public too)', m.name, str(e)[:60])
+    unseed('hair'); status()
 
 
 def collect_anims(files):
     want = {m.name: m for m in manifest('anims')}
     for fn in files:
-        t = Path(fn).read_text(encoding='utf-8', errors='replace')
+        t = Path(fn).read_text(encoding='utf-8', errors='replace').strip()
+        try:   # the MCP saves big results as [{"type": "text", "text": "<the JSON>"}]
+            w = json.loads(t)
+            if isinstance(w, list): t = ''.join(x.get('text', '') for x in w if isinstance(x, dict))
+        except ValueError: pass
         t = t[t.index('{'):]; d, _ = json.JSONDecoder().raw_decode(t)
         for s, a in d.items():
             if s not in want: print('SKIP unknown', s); continue
@@ -137,7 +157,7 @@ def collect_set(sid):
     import rbx_set_import
     m = next((m for m in manifest('rbxsets') if m.name.startswith(sid + '_')), None)
     if not m: raise SystemExit(f'set {sid} is not in the manifest')
-    rbx_set_import.fetch(sid, m.name.split('_', 1)[1]); seed(m, 'rbxsets'); status()
+    seed(m, 'rbxsets'); rbx_set_import.fetch(sid, m.name.split('_', 1)[1]); status()
 
 
 if __name__ == '__main__':

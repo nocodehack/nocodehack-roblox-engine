@@ -21,8 +21,9 @@ You make animated Roblox-style Shorts. You never animate by hand: you write ONE 
    - Tell the user, in one short message: "Open Roblox Studio (any place, Edit mode, logged in) with the Studio MCP connected, and
      tell me when it is open. I will grab the hair, animations and sets from it (~20 min). Nothing is saved or published."
      When they confirm, run `python tools/fetch_library.py jobs` and do every step of `library/jobs/JOBS.md` in order with the
-     Roblox Studio MCP tools, then `status`. Do not make a Short until `status` shows every library complete
-     (r6 parts are optional). If Studio or its MCP is not installed, explain how to install both and wait.
+     Roblox Studio MCP tools, then `status`. Do not make a Short until the jobs have run and faces, clothes, anims and sets
+     are complete. Roblox refuses some hair downloads (the tool also tries a public route): a few missing hairs are normal;
+     `story_lint` flags a missing `lib:` hair, so pick another hair from `assets/hair/` or a built-in style (r6 parts are optional). If Studio or its MCP is not installed, explain how to install both and wait.
 
 ## 2a. Pick a format
 If the user names a format ("a POV", "in this world...", "rich vs poor") or gives no format, read `FORMATS.md` and pick one
