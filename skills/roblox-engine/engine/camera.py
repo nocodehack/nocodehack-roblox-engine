@@ -353,7 +353,11 @@ def mode_shots(cm, shots, beats, cast, T_end, notes):
     return shots, OFF
 
 
-def pov_shot(sc, name, f0, f1, ch, lens=28):
+def _parents(o):
+    while o.parent: o = o.parent; yield o
+
+
+def pov_shot(sc, name, f0, f1, ch, lens=28, others=()):
     """POV camera: at `ch`'s eye height, 0.4 m in front of the face, looking where the head looks, slight handheld drift
     (keys every 3 frames). Returns (camera, {}): nothing is gated."""
     import random, zlib
@@ -364,12 +368,19 @@ def pov_shot(sc, name, f0, f1, ch, lens=28):
         sc.frame_set(f)
         eye = ch.head_mesh.matrix_world.translation.copy(); fwd = ch.head.matrix_world.to_3x3() @ Vector((0, -1, 0)); fwd.z = 0
         fwd = fwd.normalized() if fwd.length > 1e-6 else Vector((0, -1, 0)); t = f / 24.0
+        tgt = min((o.head_mesh.matrix_world.translation.copy() for o in others), key=lambda q: (q - eye).length, default=None)
+        if tgt is not None and (tgt - eye).length > 0.3: fwd = (tgt - eye).normalized()   # you look at whoever is with you
         P = eye + fwd * 0.4 + Vector((math.sin(t * 4.2 + ph[0]), math.sin(t * 3.1 + ph[1]), math.sin(t * 3.7 + ph[2]))) * 0.012
         cam.location = P; cam.keyframe_insert('location', frame=f)
-        rot = (fwd * 5 + Vector((0, 0, -0.1))).to_track_quat('-Z', 'Y').to_euler()
+        rot = fwd.to_track_quat('-Z', 'Y').to_euler()
         rot.x += math.radians(0.4) * math.sin(t * 2.9 + ph[3]); rot.z += math.radians(0.4) * math.sin(t * 2.3 + ph[4])
         cam.rotation_euler = rot; cam.keyframe_insert('rotation_euler', frame=f)
     _compat(cam)
+    own = [o for o in bpy.data.objects if o.type == 'MESH' and (o is ch.root or ch.root in _parents(o))]   # your own body never blocks the lens
+    for o in own:
+        o.hide_render = False; o.keyframe_insert('hide_render', frame=max(0, f0 - 1))
+        o.hide_render = True; o.keyframe_insert('hide_render', frame=f0)
+        o.hide_render = False; o.keyframe_insert('hide_render', frame=f1 + 1)
     sc.timeline_markers.new(name, frame=f0).camera = cam
     cam['on'] = ch.name; cam['follow'] = False; LAST['cut'] = None; LAST['cam'] = cam
     return cam, {}

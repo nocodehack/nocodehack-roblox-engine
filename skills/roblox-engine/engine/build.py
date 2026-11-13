@@ -2375,6 +2375,8 @@ def build(spec, log):
     ev_ += [(x['t'], x['look'], 'look') for x in beats if isinstance(x.get('look'), str) and x['look'] in props
             and not any(pp is props[x['look']] and a0 <= F(x['t'], fps) + 12 and a1 >= F(x['t'], fps) - 6 for _, _, pp, a0, a1 in grabs)]
     shots = camera.grammar(out_sh, beats, list(cast), ev_, T_end, fps, spec, log.setdefault('notes', []))
+    if not shots:   # a quiet scene (narrator line + faces only) gives the grammar nothing to cut on: hold one wide on the cast
+        shots = [{'t': 0.0, 'kind': 'wide', 'on': list(cast)[:3]}]; log.setdefault('notes', []).append('no shots planned -> one wide on the cast')
     if punch_ is not None:   # the close on the punchline character that covers the beat (authored or a rhythm piece) becomes the ECU
         for j_, x in enumerate(shots):
             t1_ = shots[j_ + 1]['t'] if j_ + 1 < len(shots) else T_end
@@ -2444,7 +2446,7 @@ def build(spec, log):
         # angle from emotion (reference): power/shock beats of the focus character -> low angle, small/sad beats -> high angle
         ang = s.get('angle')   # authored, or chosen by camera.grammar (R213: the emotion rule moved there)
         prev_cam = camera.LAST.get('cam')
-        if s.get('pov') in cast: cam, v = camera.pov_shot(sc, f'S{i + 1:02d} {s.get("kind", "medium")}', f0, f1, cast[s['pov']], s.get('lens', 28))   # camera mode pov
+        if s.get('pov') in cast: cam, v = camera.pov_shot(sc, f'S{i + 1:02d} {s.get("kind", "medium")}', f0, f1, cast[s['pov']], s.get('lens', 28), [v for k, v in cast.items() if k != s['pov']])   # camera mode pov
         else: cam, v = camera.shot(sc, f'S{i + 1:02d} {s.get("kind", "medium")}', f0, f1, s.get('kind', 'medium'), subj, s.get('side', 0), s.get('lens', 50),
                              s.get('push'), track=s.get('track', False), cast=list(cast.values()), vis_until=until, angle=ang,
                              motion=s.get('move'), ecu=s.get('ecu', False), soft=s.get('_soft', False), ots_first=s.get('ots', False), front=s.get('front', False), profile=s.get('profile', False), frame=s.get('frame'),

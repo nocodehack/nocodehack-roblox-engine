@@ -76,7 +76,7 @@ def jobs():
     JOBS.mkdir(parents=True, exist_ok=True); steps = []
     hb = (E / 'tools' / 'hair_batch.luau').read_text(encoding='utf-8')
     for i, c in enumerate(chunks([meta(m)['id'] for m in missing('hair')], 8)):
-        f = JOBS / f'hair_{i + 1:02d}.luau'; f.write_text(re.sub(r'local IDS = \{[^}]*\}', 'local IDS = {%s}' % ', '.join(c), hb, 1), encoding='utf-8')
+        f = JOBS / f'hair_{i + 1:02d}.luau'; f.write_text(re.sub(r'local IDS = \{[^}]*\}', 'local IDS = {%s}' % ', '.join(c), hb, count=1), encoding='utf-8')
         steps.append(f'execute_luau (Edit) with the code of `{f.relative_to(E).as_posix()}`')
     if any(s.startswith('execute_luau') for s in steps): steps.append('`python tools/fetch_library.py collect hair`')
     am = [(m.name, meta(m)) for m in missing('anims')]
@@ -90,7 +90,7 @@ def jobs():
     if batch: parts.append(batch)
     for i, b in enumerate(parts):
         lua = ', '.join('{slug = "%s", id = "%s", name = "%s"}' % (s, x['id'], x['name']) for s, x in b)
-        f = JOBS / f'anims_{i + 1:02d}.luau'; f.write_text(re.sub(r'local JOBS = \{.*\}\}', 'local JOBS = {%s}' % lua, ad, 1), encoding='utf-8')
+        f = JOBS / f'anims_{i + 1:02d}.luau'; f.write_text(re.sub(r'local JOBS = \{.*\}\}', 'local JOBS = {%s}' % lua, ad, count=1), encoding='utf-8')
         steps.append(f'execute_luau (Edit) with `{f.relative_to(E).as_posix()}` -> it returns a file path: `python tools/fetch_library.py collect anims <that file>`')
     ex, me = (E / 'tools' / 'rbx_set_export.luau').read_text(encoding='utf-8'), (E / 'tools' / 'rbx_set_meshes.luau').read_text(encoding='utf-8')
     for m in missing('rbxsets'):
