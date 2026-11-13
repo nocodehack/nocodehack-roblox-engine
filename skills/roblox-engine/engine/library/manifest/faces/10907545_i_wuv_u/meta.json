@@ -1,0 +1,22 @@
+{
+ "id": "10907545",
+ "name": "I wuv u",
+ "slug": "i_wuv_u",
+ "texture_id": "10749449",
+ "emotion": "love",
+ "talk_pair": null,
+ "intensity": 0.56,
+ "eyes": [
+  0.19,
+  0.405
+ ],
+ "mouth": [
+  0.348,
+  0.59,
+  0.652,
+  0.767
+ ],
+ "mouth_open": true,
+ "auto": false,
+ "family": "classic"
+}

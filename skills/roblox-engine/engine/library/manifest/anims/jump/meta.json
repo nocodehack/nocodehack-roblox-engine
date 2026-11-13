@@ -1,0 +1,9 @@
+{
+ "id": 125750702,
+ "name": "jump",
+ "source": "Roblox default R6 Animate",
+ "duration": 0.625,
+ "loop": false,
+ "priority": "Core",
+ "keys": 19
+}

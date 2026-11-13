@@ -1,0 +1,22 @@
+{
+ "id": "7076076",
+ "name": "Hmmm...",
+ "slug": "hmmm",
+ "texture_id": "7076053",
+ "emotion": "confused",
+ "talk_pair": null,
+ "intensity": 0.22,
+ "eyes": [
+  0.186,
+  0.343
+ ],
+ "mouth": [
+  0.312,
+  0.674,
+  0.693,
+  0.719
+ ],
+ "mouth_open": false,
+ "auto": true,
+ "family": "classic"
+}

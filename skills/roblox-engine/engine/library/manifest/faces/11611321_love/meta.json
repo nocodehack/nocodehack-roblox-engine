@@ -1,0 +1,22 @@
+{
+ "id": "11611321",
+ "name": "Love",
+ "slug": "love",
+ "texture_id": "10749488",
+ "emotion": "love",
+ "talk_pair": null,
+ "intensity": 0.65,
+ "eyes": [
+  0.212,
+  0.374
+ ],
+ "mouth": [
+  0.3,
+  0.579,
+  0.69,
+  0.795
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

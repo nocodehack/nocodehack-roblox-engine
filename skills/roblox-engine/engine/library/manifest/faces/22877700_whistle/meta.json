@@ -1,0 +1,22 @@
+{
+ "id": "22877700",
+ "name": "Whistle",
+ "slug": "whistle",
+ "texture_id": "22877631",
+ "emotion": "sheepish",
+ "talk_pair": null,
+ "intensity": 0.22,
+ "eyes": [
+  0.179,
+  0.369
+ ],
+ "mouth": [
+  0.443,
+  0.607,
+  0.56,
+  0.724
+ ],
+ "mouth_open": false,
+ "auto": true,
+ "family": "classic"
+}

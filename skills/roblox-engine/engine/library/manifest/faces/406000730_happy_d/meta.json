@@ -1,0 +1,22 @@
+{
+ "id": "406000730",
+ "name": "Happy :D",
+ "slug": "happy_d",
+ "texture_id": "406035320",
+ "emotion": "joy",
+ "talk_pair": null,
+ "intensity": 0.44,
+ "eyes": [
+  0.25,
+  0.324
+ ],
+ "mouth": [
+  0.331,
+  0.55,
+  0.648,
+  0.776
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

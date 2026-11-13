@@ -1,0 +1,513 @@
+{
+ "slug": "school_classroom",
+ "bounds": [
+  -6.6,
+  6.6,
+  -7.550000000000001,
+  7.5500000000000025
+ ],
+ "pieces": [
+  {
+   "name": "school_classroom_school classroom_1",
+   "rect": [
+    -6.6,
+    -5.9,
+    -7.0,
+    -3.75
+   ],
+   "top": 5.35,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "school_classroom_Model_2",
+   "rect": [
+    -5.75,
+    -3.5999999999999996,
+    -5.25,
+    -3.3999999999999986
+   ],
+   "top": 1.4000000000000001,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "school_classroom_seat_3",
+   "rect": [
+    -5.40005,
+    -4.050000000000001,
+    -6.899999999999999,
+    -5.7499999999999964
+   ],
+   "top": 1.8,
+   "solid": true,
+   "seat": true
+  },
+  {
+   "name": "school_classroom_school classroom_4",
+   "rect": [
+    -6.55,
+    5.95,
+    -7.549999999999997,
+    -7.0
+   ],
+   "top": 5.35,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "school_classroom_Model_5",
+   "rect": [
+    -3.55,
+    -1.4000000000000001,
+    -5.25,
+    -3.3999999999999986
+   ],
+   "top": 1.4000000000000001,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "school_classroom_seat_6",
+   "rect": [
+    -3.20005,
+    -1.85,
+    -6.899999999999999,
+    -5.7499999999999964
+   ],
+   "top": 1.8,
+   "solid": true,
+   "seat": true
+  },
+  {
+   "name": "school_classroom_Model_7",
+   "rect": [
+    1.45,
+    3.5999999999999996,
+    -5.25,
+    -3.3999999999999986
+   ],
+   "top": 1.4000000000000001,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "school_classroom_seat_8",
+   "rect": [
+    1.79995,
+    3.15,
+    -6.899999999999999,
+    -5.7499999999999964
+   ],
+   "top": 1.8,
+   "solid": true,
+   "seat": true
+  },
+  {
+   "name": "school_classroom_school classroom_9",
+   "rect": [
+    -6.6,
+    -5.9,
+    -2.2499999999999964,
+    -2.1999999999999993
+   ],
+   "top": 4.05,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "school_classroom_Model_10",
+   "rect": [
+    -5.75,
+    -3.5999999999999996,
+    0.9500000000000028,
+    2.8000000000000025
+   ],
+   "top": 1.4000000000000001,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "school_classroom_seat_11",
+   "rect": [
+    -5.40005,
+    -4.050000000000001,
+    -0.6999999999999993,
+    0.45000000000000284
+   ],
+   "top": 1.8,
+   "solid": true,
+   "seat": true
+  },
+  {
+   "name": "school_classroom_school classroom_12",
+   "rect": [
+    -6.6,
+    -5.9,
+    2.200000000000003,
+    2.25
+   ],
+   "top": 4.05,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "school_classroom_school classroom_13",
+   "rect": [
+    -6.6,
+    -5.9,
+    -0.6999999999999957,
+    -0.6499999999999986
+   ],
+   "top": 4.05,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "school_classroom_school classroom_14",
+   "rect": [
+    -6.6,
+    -5.9,
+    0.7500000000000036,
+    0.8000000000000007
+   ],
+   "top": 4.05,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "school_classroom_school classroom_15",
+   "rect": [
+    -6.25,
+    -6.1,
+    -3.799999999999997,
+    3.7500000000000018
+   ],
+   "top": 4.05,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "school_classroom_school classroom_16",
+   "rect": [
+    -6.550000000000001,
+    -6.0,
+    -6.9999999999999964,
+    7.150000000000002
+   ],
+   "top": 1.1500000000000001,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "school_classroom_Model_17",
+   "rect": [
+    -3.55,
+    -1.4000000000000001,
+    0.9500000000000028,
+    2.8000000000000025
+   ],
+   "top": 1.4000000000000001,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "school_classroom_seat_18",
+   "rect": [
+    -3.20005,
+    -1.85,
+    -0.6999999999999993,
+    0.45000000000000284
+   ],
+   "top": 1.8,
+   "solid": true,
+   "seat": true
+  },
+  {
+   "name": "school_classroom_Model_19",
+   "rect": [
+    3.6499999999999995,
+    5.8,
+    -5.25,
+    -3.3999999999999986
+   ],
+   "top": 1.4000000000000001,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "school_classroom_seat_20",
+   "rect": [
+    3.99995,
+    5.35,
+    -6.899999999999999,
+    -5.7499999999999964
+   ],
+   "top": 1.8,
+   "solid": true,
+   "seat": true
+  },
+  {
+   "name": "school_classroom_school classroom_21",
+   "rect": [
+    5.9,
+    6.6,
+    -7.549999999999997,
+    -3.75
+   ],
+   "top": 5.35,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "school_classroom_Model_22",
+   "rect": [
+    1.55,
+    3.7,
+    0.9500000000000028,
+    2.8000000000000025
+   ],
+   "top": 1.4000000000000001,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "school_classroom_seat_23",
+   "rect": [
+    1.89995,
+    3.25,
+    -0.6999999999999993,
+    0.45000000000000284
+   ],
+   "top": 1.8,
+   "solid": true,
+   "seat": true
+  },
+  {
+   "name": "school_classroom_Model_24",
+   "rect": [
+    3.75,
+    5.9,
+    0.9500000000000028,
+    2.8000000000000025
+   ],
+   "top": 1.4000000000000001,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "school_classroom_seat_25",
+   "rect": [
+    4.09995,
+    5.449999999999999,
+    -0.6999999999999993,
+    0.45000000000000284
+   ],
+   "top": 1.8,
+   "solid": true,
+   "seat": true
+  },
+  {
+   "name": "school_classroom_school classroom_26",
+   "rect": [
+    5.9,
+    6.6,
+    0.7500000000000036,
+    0.8000000000000007
+   ],
+   "top": 4.05,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "school_classroom_school classroom_27",
+   "rect": [
+    6.25,
+    6.4,
+    -3.799999999999997,
+    2.25
+   ],
+   "top": 4.05,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "school_classroom_school classroom_28",
+   "rect": [
+    5.949999999999999,
+    6.5,
+    -7.0,
+    3.0
+   ],
+   "top": 1.1500000000000001,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "school_classroom_school classroom_29",
+   "rect": [
+    5.9,
+    6.6,
+    -0.6999999999999957,
+    -0.6499999999999986
+   ],
+   "top": 4.05,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "school_classroom_school classroom_30",
+   "rect": [
+    5.9,
+    6.6,
+    -2.2499999999999964,
+    -2.1999999999999993
+   ],
+   "top": 4.05,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "school_classroom_school classroom_31",
+   "rect": [
+    5.8999999999999995,
+    6.6,
+    2.200000000000003,
+    3.0500000000000025
+   ],
+   "top": 5.35,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "school_classroom_school classroom_32",
+   "rect": [
+    -6.6,
+    -5.9,
+    3.700000000000001,
+    7.100000000000001
+   ],
+   "top": 5.35,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "school_classroom_Model_33",
+   "rect": [
+    -2.1,
+    -1.0,
+    3.0500000000000007,
+    4.050000000000001
+   ],
+   "top": 1.21055,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "school_classroom_Model_34",
+   "rect": [
+    -1.9702050215,
+    -1.4526479825,
+    3.2734144965000027,
+    3.731614361500002
+   ],
+   "top": 1.120450715,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "school_classroom_Model_35",
+   "rect": [
+    -5.75,
+    -2.35,
+    2.8000000000000007,
+    4.700050000000001
+   ],
+   "top": 1.5,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "school_classroom_seat_36",
+   "rect": [
+    -4.5,
+    -3.15,
+    4.9,
+    6.050000000000001
+   ],
+   "top": 1.8,
+   "solid": true,
+   "seat": true
+  },
+  {
+   "name": "school_classroom_Model_38",
+   "rect": [
+    -4.1499999999999995,
+    3.9499999999999997,
+    6.9,
+    7.000000000000002
+   ],
+   "top": 4.8,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "school_classroom_Model_39",
+   "rect": [
+    -4.1499999999999995,
+    3.9499999999999997,
+    6.9,
+    7.000000000000002
+   ],
+   "top": 4.8,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "school_classroom_school classroom_40",
+   "rect": [
+    -6.55,
+    5.95,
+    7.000000000000002,
+    7.5500000000000025
+   ],
+   "top": 5.35,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "school_classroom_school classroom_41",
+   "rect": [
+    5.8999999999999995,
+    6.55,
+    5.500000000000002,
+    7.550000000000001
+   ],
+   "top": 5.35,
+   "solid": true,
+   "seat": false
+  }
+ ],
+ "spots": [
+  [
+   0.0,
+   0.0
+  ],
+  [
+   -5.5,
+   6.5
+  ],
+  [
+   5.0,
+   6.5
+  ],
+  [
+   -5.5,
+   -5.5
+  ],
+  [
+   5.0,
+   -5.5
+  ]
+ ]
+}

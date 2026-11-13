@@ -1,0 +1,22 @@
+{
+ "id": "8329679",
+ "name": "Stitchface",
+ "slug": "stitchface",
+ "texture_id": "8329438",
+ "emotion": "evil",
+ "talk_pair": null,
+ "intensity": 0.57,
+ "eyes": [
+  0.15,
+  0.364
+ ],
+ "mouth": [
+  0.274,
+  0.624,
+  0.719,
+  0.75
+ ],
+ "mouth_open": true,
+ "auto": false,
+ "family": "classic"
+}

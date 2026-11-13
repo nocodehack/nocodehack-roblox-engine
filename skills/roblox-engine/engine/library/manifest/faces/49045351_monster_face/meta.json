@@ -1,0 +1,22 @@
+{
+ "id": "49045351",
+ "name": "Monster Face",
+ "slug": "monster_face",
+ "texture_id": "49045252",
+ "emotion": "evil",
+ "talk_pair": null,
+ "intensity": 0.47,
+ "eyes": [
+  0.176,
+  0.369
+ ],
+ "mouth": [
+  0.302,
+  0.636,
+  0.698,
+  0.762
+ ],
+ "mouth_open": true,
+ "auto": false,
+ "family": "classic"
+}

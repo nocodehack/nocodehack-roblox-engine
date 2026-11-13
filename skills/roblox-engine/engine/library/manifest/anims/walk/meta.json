@@ -1,0 +1,9 @@
+{
+ "id": 180426354,
+ "name": "walk",
+ "source": "Roblox default R6 Animate",
+ "duration": 0.667,
+ "loop": true,
+ "priority": "Core",
+ "keys": 22
+}

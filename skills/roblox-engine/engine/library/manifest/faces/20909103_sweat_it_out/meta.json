@@ -1,0 +1,22 @@
+{
+ "id": "20909103",
+ "name": "Sweat It Out",
+ "slug": "sweat_it_out",
+ "texture_id": "20909031",
+ "emotion": "scared",
+ "talk_pair": null,
+ "intensity": 0.9,
+ "eyes": [
+  0.202,
+  0.455
+ ],
+ "mouth": [
+  0.326,
+  0.586,
+  0.681,
+  0.776
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

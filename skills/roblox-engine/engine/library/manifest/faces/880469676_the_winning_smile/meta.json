@@ -1,0 +1,23 @@
+{
+ "id": "880469676",
+ "name": "The Winning Smile",
+ "slug": "the_winning_smile",
+ "texture_id": "1315936169",
+ "emotion": "happy",
+ "talk_pair": "226217449",
+ "intensity": 0.69,
+ "eyes": [
+  0.15,
+  0.424
+ ],
+ "mouth": [
+  0.3,
+  0.614,
+  0.7,
+  0.8
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic",
+ "pair_ok": false
+}

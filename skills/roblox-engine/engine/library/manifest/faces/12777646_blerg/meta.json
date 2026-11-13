@@ -1,0 +1,22 @@
+{
+ "id": "12777646",
+ "name": "Blerg!",
+ "slug": "blerg",
+ "texture_id": "12777582",
+ "emotion": "silly",
+ "talk_pair": null,
+ "intensity": 0.4,
+ "eyes": [
+  0.214,
+  0.36
+ ],
+ "mouth": [
+  0.307,
+  0.581,
+  0.681,
+  0.719
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

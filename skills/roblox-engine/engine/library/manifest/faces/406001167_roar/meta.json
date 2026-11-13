@@ -1,0 +1,22 @@
+{
+ "id": "406001167",
+ "name": "ROAR!!!",
+ "slug": "roar",
+ "texture_id": "405704879",
+ "emotion": "angry",
+ "talk_pair": null,
+ "intensity": 1.0,
+ "eyes": [
+  0.136,
+  0.371
+ ],
+ "mouth": [
+  0.367,
+  0.569,
+  0.667,
+  0.805
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

@@ -1,0 +1,22 @@
+{
+ "id": "10907551",
+ "name": "Dizzy Face",
+ "slug": "dizzy_face",
+ "texture_id": "10749463",
+ "emotion": "confused",
+ "talk_pair": null,
+ "intensity": 0.33,
+ "eyes": [
+  0.212,
+  0.376
+ ],
+ "mouth": [
+  0.317,
+  0.586,
+  0.676,
+  0.633
+ ],
+ "mouth_open": false,
+ "auto": false,
+ "family": "bigeye"
+}

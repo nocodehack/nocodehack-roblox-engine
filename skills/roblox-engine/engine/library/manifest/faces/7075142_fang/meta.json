@@ -1,0 +1,23 @@
+{
+ "id": "7075142",
+ "name": "Fang",
+ "slug": "fang",
+ "texture_id": "7075130",
+ "emotion": "happy",
+ "talk_pair": "33321848",
+ "intensity": 0.6,
+ "eyes": [
+  0.229,
+  0.369
+ ],
+ "mouth": [
+  0.307,
+  0.579,
+  0.695,
+  0.798
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic",
+ "pair_ok": false
+}

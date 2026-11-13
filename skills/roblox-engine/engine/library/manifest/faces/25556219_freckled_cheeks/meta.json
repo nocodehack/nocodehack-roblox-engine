@@ -1,0 +1,22 @@
+{
+ "id": "25556219",
+ "name": "Freckled Cheeks",
+ "slug": "freckled_cheeks",
+ "texture_id": "25555431",
+ "emotion": "sheepish",
+ "talk_pair": null,
+ "intensity": 0.45,
+ "eyes": [
+  0.229,
+  0.471
+ ],
+ "mouth": [
+  0.324,
+  0.624,
+  0.66,
+  0.762
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

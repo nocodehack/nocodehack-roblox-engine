@@ -1,0 +1,22 @@
+{
+ "id": "31117267",
+ "name": "Skeptic",
+ "slug": "skeptic",
+ "texture_id": "31117192",
+ "emotion": "confused",
+ "talk_pair": null,
+ "intensity": 0.38,
+ "eyes": [
+  0.131,
+  0.371
+ ],
+ "mouth": [
+  0.374,
+  0.612,
+  0.724,
+  0.736
+ ],
+ "mouth_open": false,
+ "auto": true,
+ "family": "classic"
+}

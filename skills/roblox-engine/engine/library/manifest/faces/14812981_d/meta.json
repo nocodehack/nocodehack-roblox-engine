@@ -1,0 +1,22 @@
+{
+ "id": "14812981",
+ "name": "D:",
+ "slug": "d",
+ "texture_id": "14812835",
+ "emotion": "shock",
+ "talk_pair": null,
+ "intensity": 0.95,
+ "eyes": [
+  0.274,
+  0.374
+ ],
+ "mouth": [
+  0.35,
+  0.483,
+  0.652,
+  0.719
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

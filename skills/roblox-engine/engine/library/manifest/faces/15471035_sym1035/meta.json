@@ -1,0 +1,22 @@
+{
+ "id": "15471035",
+ "name": ":/",
+ "slug": "sym1035",
+ "texture_id": "15470952",
+ "emotion": "disgust",
+ "talk_pair": null,
+ "intensity": 0.3,
+ "eyes": [
+  0.267,
+  0.367
+ ],
+ "mouth": [
+  0.324,
+  0.555,
+  0.667,
+  0.726
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

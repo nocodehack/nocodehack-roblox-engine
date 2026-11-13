@@ -1,0 +1,22 @@
+{
+ "id": "14516578",
+ "name": "Sniffles",
+ "slug": "sniffles",
+ "texture_id": "14516479",
+ "emotion": "sad",
+ "talk_pair": null,
+ "intensity": 0.44,
+ "eyes": [
+  0.229,
+  0.533
+ ],
+ "mouth": [
+  0.367,
+  0.576,
+  0.676,
+  0.705
+ ],
+ "mouth_open": false,
+ "auto": true,
+ "family": "classic"
+}

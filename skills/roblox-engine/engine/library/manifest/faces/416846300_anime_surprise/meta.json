@@ -1,0 +1,22 @@
+{
+ "id": "416846300",
+ "name": "Anime Surprise",
+ "slug": "anime_surprise",
+ "texture_id": "416829065",
+ "emotion": "shock",
+ "talk_pair": null,
+ "intensity": 1.0,
+ "eyes": [
+  0.145,
+  0.407
+ ],
+ "mouth": [
+  0.355,
+  0.612,
+  0.652,
+  0.798
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "bigeye"
+}

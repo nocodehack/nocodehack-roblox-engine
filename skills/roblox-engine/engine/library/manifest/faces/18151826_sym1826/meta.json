@@ -1,0 +1,23 @@
+{
+ "id": "18151826",
+ "name": ":]",
+ "slug": "sym1826",
+ "texture_id": "18151722",
+ "emotion": "happy",
+ "talk_pair": "406000730",
+ "intensity": 0.16,
+ "eyes": [
+  0.281,
+  0.383
+ ],
+ "mouth": [
+  0.329,
+  0.648,
+  0.671,
+  0.719
+ ],
+ "mouth_open": false,
+ "auto": true,
+ "family": "classic",
+ "pair_ok": false
+}

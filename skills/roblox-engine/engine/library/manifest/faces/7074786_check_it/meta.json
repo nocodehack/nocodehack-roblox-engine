@@ -1,0 +1,22 @@
+{
+ "id": "7074786",
+ "name": "Check It",
+ "slug": "check_it",
+ "texture_id": "7074780",
+ "emotion": "smug",
+ "talk_pair": null,
+ "intensity": 0.5,
+ "eyes": [
+  0.195,
+  0.36
+ ],
+ "mouth": [
+  0.31,
+  0.569,
+  0.7,
+  0.752
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

@@ -1,0 +1,22 @@
+{
+ "id": "19398554",
+ "name": "Grr!",
+ "slug": "grr",
+ "texture_id": "19398553",
+ "emotion": "angry",
+ "talk_pair": null,
+ "intensity": 0.64,
+ "eyes": [
+  0.174,
+  0.369
+ ],
+ "mouth": [
+  0.343,
+  0.531,
+  0.66,
+  0.738
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

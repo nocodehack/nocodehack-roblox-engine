@@ -1,0 +1,22 @@
+{
+ "id": "7317765",
+ "name": "Slickfang",
+ "slug": "slickfang",
+ "texture_id": "7317591",
+ "emotion": "evil",
+ "talk_pair": null,
+ "intensity": 0.58,
+ "eyes": [
+  0.19,
+  0.357
+ ],
+ "mouth": [
+  0.305,
+  0.571,
+  0.705,
+  0.771
+ ],
+ "mouth_open": true,
+ "auto": false,
+ "family": "classic"
+}

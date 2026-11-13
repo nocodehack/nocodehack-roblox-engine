@@ -1,0 +1,22 @@
+{
+ "id": "7074893",
+ "name": "Drool",
+ "slug": "drool",
+ "texture_id": "7074882",
+ "emotion": "silly",
+ "talk_pair": null,
+ "intensity": 0.65,
+ "eyes": [
+  0.229,
+  0.369
+ ],
+ "mouth": [
+  0.331,
+  0.54,
+  0.683,
+  0.802
+ ],
+ "mouth_open": true,
+ "auto": false,
+ "family": "classic"
+}

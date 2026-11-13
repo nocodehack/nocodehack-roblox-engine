@@ -1,0 +1,23 @@
+{
+ "id": "22828351",
+ "name": "Wink-Blink",
+ "slug": "wink_blink",
+ "texture_id": "22828283",
+ "emotion": "happy",
+ "talk_pair": "236399287",
+ "intensity": 0.57,
+ "eyes": [
+  0.24,
+  0.395
+ ],
+ "mouth": [
+  0.317,
+  0.557,
+  0.671,
+  0.771
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic",
+ "pair_ok": false
+}

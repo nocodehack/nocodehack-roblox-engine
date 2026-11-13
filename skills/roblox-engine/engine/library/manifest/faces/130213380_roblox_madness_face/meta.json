@@ -1,0 +1,22 @@
+{
+ "id": "130213380",
+ "name": "ROBLOX Madness Face",
+ "slug": "roblox_madness_face",
+ "texture_id": "129900258",
+ "emotion": "laugh",
+ "talk_pair": null,
+ "intensity": 0.85,
+ "eyes": [
+  0.198,
+  0.436
+ ],
+ "mouth": [
+  0.252,
+  0.564,
+  0.767,
+  0.836
+ ],
+ "mouth_open": true,
+ "auto": false,
+ "family": "bigeye"
+}

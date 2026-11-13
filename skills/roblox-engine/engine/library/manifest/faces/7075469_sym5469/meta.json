@@ -1,0 +1,22 @@
+{
+ "id": "7075469",
+ "name": ":-/",
+ "slug": "sym5469",
+ "texture_id": "7075459",
+ "emotion": "confused",
+ "talk_pair": null,
+ "intensity": 0.22,
+ "eyes": [
+  0.195,
+  0.367
+ ],
+ "mouth": [
+  0.352,
+  0.695,
+  0.648,
+  0.757
+ ],
+ "mouth_open": false,
+ "auto": true,
+ "family": "classic"
+}

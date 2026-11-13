@@ -1,0 +1,22 @@
+{
+ "id": "30394850",
+ "name": "Awesome Face",
+ "slug": "awesome_face",
+ "texture_id": "30394849",
+ "emotion": "laugh",
+ "talk_pair": null,
+ "intensity": 0.9,
+ "eyes": [
+  0.124,
+  0.371
+ ],
+ "mouth": [
+  0.302,
+  0.569,
+  0.705,
+  0.774
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "bigeye"
+}

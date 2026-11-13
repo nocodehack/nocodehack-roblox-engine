@@ -1,0 +1,22 @@
+{
+ "id": "7074729",
+ "name": "Glee",
+ "slug": "glee",
+ "texture_id": "7074712",
+ "emotion": "joy",
+ "talk_pair": null,
+ "intensity": 0.66,
+ "eyes": [
+  0.233,
+  0.362
+ ],
+ "mouth": [
+  0.305,
+  0.564,
+  0.702,
+  0.805
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

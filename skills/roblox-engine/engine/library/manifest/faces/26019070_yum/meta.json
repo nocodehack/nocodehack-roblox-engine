@@ -1,0 +1,22 @@
+{
+ "id": "26019070",
+ "name": "Yum!",
+ "slug": "yum",
+ "texture_id": "26018945",
+ "emotion": "silly",
+ "talk_pair": null,
+ "intensity": 0.73,
+ "eyes": [
+  0.171,
+  0.362
+ ],
+ "mouth": [
+  0.264,
+  0.571,
+  0.721,
+  0.762
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

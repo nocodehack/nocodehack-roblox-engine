@@ -1,0 +1,22 @@
+{
+ "id": "7074944",
+ "name": "Uh Oh",
+ "slug": "uh_oh",
+ "texture_id": "7074932",
+ "emotion": "scared",
+ "talk_pair": null,
+ "intensity": 0.18,
+ "eyes": [
+  0.229,
+  0.369
+ ],
+ "mouth": [
+  0.429,
+  0.46,
+  0.574,
+  0.605
+ ],
+ "mouth_open": false,
+ "auto": true,
+ "family": "classic"
+}

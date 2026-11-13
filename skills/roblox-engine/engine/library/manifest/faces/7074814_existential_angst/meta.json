@@ -1,0 +1,22 @@
+{
+ "id": "7074814",
+ "name": "Existential Angst",
+ "slug": "existential_angst",
+ "texture_id": "417334857",
+ "emotion": "sad",
+ "talk_pair": null,
+ "intensity": 0.51,
+ "eyes": [
+  0.248,
+  0.307
+ ],
+ "mouth": [
+  0.3,
+  0.51,
+  0.7,
+  0.738
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

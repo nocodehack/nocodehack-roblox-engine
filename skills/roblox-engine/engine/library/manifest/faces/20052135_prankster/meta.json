@@ -1,0 +1,22 @@
+{
+ "id": "20052135",
+ "name": "Prankster",
+ "slug": "prankster",
+ "texture_id": "20052028",
+ "emotion": "silly",
+ "talk_pair": null,
+ "intensity": 0.85,
+ "eyes": [
+  0.236,
+  0.414
+ ],
+ "mouth": [
+  0.279,
+  0.555,
+  0.724,
+  0.907
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

@@ -1,0 +1,22 @@
+{
+ "id": "7074661",
+ "name": "Classic Goof",
+ "slug": "classic_goof",
+ "texture_id": "7046286",
+ "emotion": "silly",
+ "talk_pair": null,
+ "intensity": 0.45,
+ "eyes": [
+  0.231,
+  0.369
+ ],
+ "mouth": [
+  0.326,
+  0.593,
+  0.683,
+  0.788
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

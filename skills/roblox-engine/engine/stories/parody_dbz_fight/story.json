@@ -1,0 +1,1131 @@
+{
+  "title": "Yamcha Came Back",
+  "fps": 24,
+  "mood": "battle",
+  "cast": [
+    {
+      "name": "Vegeta",
+      "face_family": "classic",
+      "shirt": "#2B4C9B",
+      "pants": "#2B4C9B",
+      "hair": "#141414",
+      "hair_style": "lib:vegeta2",
+      "face": "smug",
+      "skin": "#F2C9A0",
+      "outfit": {
+        "shirt": "lib:vegeta_armor2",
+        "pants": "lib:vegeta_armor2"
+      }
+    },
+    {
+      "name": "Goku",
+      "face_family": "drawn",
+      "shirt": "#F28A1C",
+      "pants": "#F28A1C",
+      "hair": "#141414",
+      "hair_style": "lib:goku1",
+      "face": "grin",
+      "skin": "#F2C9A0",
+      "outfit": {
+        "shirt": "lib:goku_gi1"
+      }
+    },
+    {
+      "name": "Yamcha",
+      "face_family": "classic",
+      "shirt": "#D8DADF",
+      "pants": "#D8DADF",
+      "hair": "#141414",
+      "hair_style": "lib:spiky_anime1",
+      "face_marks": [
+        "scar_x_cheek_L",
+        "scar_eye_R"
+      ],
+      "face": "smug",
+      "skin": "#F2C9A0",
+      "outfit": {
+        "shirt": "lib:6476167301"
+      }
+    },
+    {
+      "name": "Krillin",
+      "face_family": "drawn",
+      "face_marks": [
+        "dots6_forehead"
+      ],
+      "shirt": "#F28A1C",
+      "pants": "#F28A1C",
+      "hair_style": "none",
+      "face": "worry",
+      "skin": "#F2C9A0",
+      "outfit": {
+        "shirt": "lib:goku_gi1"
+      }
+    },
+    {
+      "name": "Saibaman",
+      "face_family": "drawn",
+      "face_marks": [
+        "veins_head"
+      ],
+      "shirt": "#3F8A2A",
+      "pants": "#35731F",
+      "hair_style": "none",
+      "face": "angry",
+      "skin": "#8FD45A"
+    }
+  ],
+  "scenes": [
+    {
+      "pitch": false,
+      "establish": false,
+      "set": {
+        "preset": "wasteland",
+        "mood": "default"
+      },
+      "seconds": 15.0,
+      "cast": [
+        {
+          "name": "Vegeta",
+          "at": [
+            -2,
+            0
+          ],
+          "yaw": -60,
+          "face": "smug"
+        },
+        {
+          "name": "Goku",
+          "at": [
+            -6.5,
+            4.5
+          ],
+          "yaw": 80
+        },
+        {
+          "name": "Krillin",
+          "at": [
+            -6.5,
+            -0.5
+          ],
+          "yaw": 90
+        },
+        {
+          "name": "Yamcha",
+          "at": [
+            4.5,
+            30
+          ],
+          "yaw": -90
+        },
+        {
+          "name": "Saibaman",
+          "at": [
+            14,
+            -3
+          ],
+          "yaw": -90
+        }
+      ],
+      "beats": [
+        {
+          "t": 0.2,
+          "who": "Vegeta",
+          "talk": 3.53,
+          "say": "Yamcha? Please. The man is dead weight.",
+          "pose": "arms_crossed",
+          "face": "smug"
+        },
+        {
+          "t": 0.3,
+          "who": "Goku",
+          "pose": "hands_up",
+          "look": "Vegeta"
+        },
+        {
+          "t": 1.6,
+          "who": "Goku",
+          "pose": "stand_b"
+        },
+        {
+          "t": 3.85,
+          "who": "Krillin",
+          "talk": 2.35,
+          "say": "He's been training for a whole year, though...",
+          "face": "worry",
+          "look": "Vegeta"
+        },
+        {
+          "t": 6.3,
+          "who": "Vegeta",
+          "talk": 2.38,
+          "say": "Training to lose faster.",
+          "face": "smug",
+          "pose": "dismiss_R"
+        },
+        {
+          "t": 8.8,
+          "who": "Yamcha",
+          "fly": {
+            "to": [
+              [
+                4.5,
+                0
+              ]
+            ],
+            "height": 10,
+            "s": 0.45
+          }
+        },
+        {
+          "t": 9.25,
+          "who": "Yamcha",
+          "land": {
+            "crater": true
+          },
+          "aura": {
+            "s": 3.0,
+            "color": "#FFD23F"
+          },
+          "face": "smug"
+        },
+        {
+          "t": 9.5,
+          "who": "Vegeta",
+          "turn": "Yamcha",
+          "face": "emo:shock",
+          "pose": "recoil"
+        },
+        {
+          "t": 9.5,
+          "who": "Goku",
+          "turn": "Yamcha",
+          "face": "o"
+        },
+        {
+          "t": 9.5,
+          "who": "Krillin",
+          "turn": "Yamcha",
+          "face": "o",
+          "exclaim": true,
+          "pose": "shock"
+        },
+        {
+          "t": 10.4,
+          "who": "Yamcha",
+          "talk": 0.7,
+          "say": "Miss me?",
+          "face": "smug",
+          "pose": "arms_crossed",
+          "gesture": false
+        },
+        {
+          "t": 11.2,
+          "who": "Saibaman",
+          "fly": {
+            "to": "Yamcha",
+            "height": 3,
+            "s": 0.45
+          },
+          "sfx": "screech"
+        },
+        {
+          "t": 11.65,
+          "who": "Saibaman",
+          "land": true,
+          "pose": "hands_up",
+          "face": "scream"
+        },
+        {
+          "t": 12.3,
+          "who": "Yamcha",
+          "attack": {
+            "move": "punch_L",
+            "target": "Saibaman",
+            "no_look": true
+          }
+        },
+        {
+          "t": 12.4,
+          "who": "Saibaman",
+          "knockback": {
+            "from": "Yamcha",
+            "to": [
+              19,
+              -5
+            ],
+            "distance": 14,
+            "height": 6
+          },
+          "face": "scream"
+        },
+        {
+          "t": 13.0,
+          "who": "Krillin",
+          "talk": 1.65,
+          "say": "He didn't even LOOK at it!",
+          "face": "o",
+          "pose": "shock"
+        }
+      ],
+      "shots": [
+        {
+          "t": 0,
+          "kind": "medium",
+          "on": [
+            "Vegeta"
+          ],
+          "hold": true
+        },
+        {
+          "t": 3.75,
+          "kind": "close",
+          "on": [
+            "Krillin"
+          ],
+          "hold": true
+        },
+        {
+          "t": 6.2,
+          "kind": "medium",
+          "on": [
+            "Vegeta"
+          ],
+          "angle": "low",
+          "hold": true
+        },
+        {
+          "t": 8.75,
+          "kind": "wide",
+          "on": [
+            "Yamcha"
+          ],
+          "lens": 28,
+          "hold": true,
+          "shake": [
+            9.25
+          ]
+        },
+        {
+          "t": 9.6,
+          "kind": "close",
+          "on": [
+            "Vegeta"
+          ],
+          "hold": true
+        },
+        {
+          "t": 10.3,
+          "kind": "medium",
+          "on": [
+            "Yamcha"
+          ],
+          "angle": "low",
+          "hold": true
+        },
+        {
+          "t": 11.55,
+          "kind": "wide",
+          "on": [
+            "Yamcha",
+            "Saibaman"
+          ],
+          "lens": 30,
+          "keep_two": true
+        },
+        {
+          "t": 12.9,
+          "kind": "close",
+          "on": [
+            "Krillin"
+          ],
+          "hold": true
+        }
+      ]
+    },
+    {
+      "pitch": false,
+      "establish": false,
+      "set": {
+        "preset": "wasteland",
+        "mood": "default"
+      },
+      "seconds": 12.2,
+      "cast": [
+        {
+          "name": "Vegeta",
+          "at": [
+            -2,
+            0
+          ],
+          "yaw": 40,
+          "face": "angry"
+        },
+        {
+          "name": "Yamcha",
+          "at": [
+            4.5,
+            0
+          ],
+          "yaw": -90,
+          "face": "smug"
+        },
+        {
+          "name": "Goku",
+          "at": [
+            -6.5,
+            4.5
+          ],
+          "yaw": 80
+        },
+        {
+          "name": "Krillin",
+          "at": [
+            -8,
+            6
+          ],
+          "yaw": 90,
+          "face": "worry"
+        }
+      ],
+      "beats": [
+        {
+          "t": 0.2,
+          "who": "Vegeta",
+          "talk": 2.69,
+          "say": "A lucky shot. Stay back, Kakarot.",
+          "face": "angry",
+          "pose": "insist_R"
+        },
+        {
+          "t": 0.2,
+          "who": "Yamcha",
+          "pose": "stand_a",
+          "face": "neutral"
+        },
+        {
+          "t": 3.0,
+          "who": "Vegeta",
+          "walk": [
+            [
+              0.6,
+              0
+            ]
+          ],
+          "run": true,
+          "speed": 13
+        },
+        {
+          "t": 3.9,
+          "who": "Vegeta",
+          "attack": {
+            "flurry": [
+              "punch_R",
+              "punch_L",
+              "punch_R",
+              "kick_R",
+              "punch_L",
+              "punch_R"
+            ],
+            "target": "Yamcha",
+            "blocked": true,
+            "s": 1.8
+          }
+        },
+        {
+          "t": 4.6,
+          "who": "Yamcha",
+          "talk": 1.83,
+          "say": "You're slow, Vegeta.",
+          "face": "neutral",
+          "gesture": false
+        },
+        {
+          "t": 7.5,
+          "who": "Vegeta",
+          "attack": {
+            "move": "punch_R",
+            "target": "Yamcha",
+            "blocked": true,
+            "hold": 0.45,
+            "relax": true
+          }
+        },
+        {
+          "t": 6.5,
+          "who": "Vegeta",
+          "talk": 1.41,
+          "say": "Impossible!",
+          "face": "scared",
+          "gesture": false
+        },
+        {
+          "t": 8.0,
+          "who": "Yamcha",
+          "attack": {
+            "move": "uppercut_R",
+            "target": "Vegeta"
+          },
+          "face": "smug"
+        },
+        {
+          "t": 8.1,
+          "who": "Vegeta",
+          "knockback": {
+            "from": "Yamcha",
+            "to": [
+              -7.3,
+              0.5
+            ],
+            "distance": 6,
+            "height": 6,
+            "pose": "curl"
+          },
+          "face": "scream"
+        },
+        {
+          "t": 9.3,
+          "who": "Goku",
+          "face": "o"
+        },
+        {
+          "t": 10.2,
+          "who": "Krillin",
+          "talk": 1.88,
+          "say": "...is that... the pose?",
+          "face": "worry",
+          "pose": "cover_mouth_R",
+          "gesture": false
+        }
+      ],
+      "shots": [
+        {
+          "t": 0,
+          "kind": "medium",
+          "on": [
+            "Vegeta"
+          ],
+          "hold": true
+        },
+        {
+          "t": 2.9,
+          "kind": "full",
+          "on": [
+            "Vegeta",
+            "Yamcha"
+          ],
+          "lens": 35,
+          "keep_two": true
+        },
+        {
+          "t": 6.4,
+          "kind": "medium",
+          "on": [
+            "Vegeta",
+            "Yamcha"
+          ],
+          "lens": 45,
+          "keep_two": true
+        },
+        {
+          "t": 7.6,
+          "kind": "full",
+          "on": [
+            "Yamcha",
+            "Vegeta"
+          ],
+          "lens": 32,
+          "keep_two": true,
+          "shake": [
+            8.0
+          ]
+        },
+        {
+          "t": 10.1,
+          "kind": "close",
+          "on": [
+            "Krillin"
+          ],
+          "hold": true
+        }
+      ]
+    },
+    {
+      "pitch": false,
+      "establish": false,
+      "set": {
+        "preset": "wasteland",
+        "mood": "default"
+      },
+      "seconds": 15.4,
+      "cast": [
+        {
+          "name": "Goku",
+          "at": [
+            -6.5,
+            4.5
+          ],
+          "yaw": 90,
+          "face": "grin"
+        },
+        {
+          "name": "Yamcha",
+          "at": [
+            5.5,
+            3.5
+          ],
+          "yaw": -90,
+          "face": "smug"
+        },
+        {
+          "name": "Vegeta",
+          "at": [
+            -8.9,
+            0.1
+          ],
+          "yaw": 90
+        },
+        {
+          "name": "Krillin",
+          "at": [
+            -10.5,
+            7
+          ],
+          "yaw": 80,
+          "face": "worry"
+        }
+      ],
+      "beats": [
+        {
+          "t": 0,
+          "who": "Vegeta",
+          "down": {
+            "pose": "curl",
+            "crater": true
+          }
+        },
+        {
+          "t": 0.1,
+          "who": "Goku",
+          "walk": [
+            [
+              -4.5,
+              3.5
+            ]
+          ]
+        },
+        {
+          "t": 0.5,
+          "who": "Goku",
+          "talk": 4.0,
+          "say": "Wow, Yamcha, you got so strong! Let's fight!",
+          "face": "joy",
+          "pose": "fist_pump_R"
+        },
+        {
+          "t": 0.5,
+          "who": "Yamcha",
+          "pose": "arms_crossed",
+          "face": "smug"
+        },
+        {
+          "t": 4.7,
+          "who": "Goku",
+          "talk": 4.28,
+          "say": "Ka... me... ha... me... HAAAA!",
+          "face": "grin",
+          "gesture": false
+        },
+        {
+          "t": 4.95,
+          "who": "Goku",
+          "face": "scream"
+        },
+        {
+          "t": 7.8,
+          "who": "Goku",
+          "beam": {
+            "to": "Yamcha",
+            "charge": 3.0,
+            "s": 1.8,
+            "color": "#5AC8FF",
+            "hands": "both",
+            "size": 1.8,
+            "deflect": {
+              "after": 0.6,
+              "to": [
+                20,
+                30,
+                40
+              ]
+            }
+          },
+          "face": "scream"
+        },
+        {
+          "t": 8.7,
+          "who": "Krillin",
+          "face": "o",
+          "pose": "shock"
+        },
+        {
+          "t": 9.7,
+          "who": "Goku",
+          "face": "o",
+          "pose": "shock"
+        },
+        {
+          "t": 9.8,
+          "who": "Yamcha",
+          "fly": {
+            "to": "Goku",
+            "height": 0.6,
+            "s": 0.3
+          }
+        },
+        {
+          "t": 10.1,
+          "who": "Yamcha",
+          "land": true
+        },
+        {
+          "t": 10.45,
+          "who": "Yamcha",
+          "talk": 0.57,
+          "say": "Sit.",
+          "face": "smug",
+          "gesture": false
+        },
+        {
+          "t": 11.0,
+          "who": "Yamcha",
+          "attack": {
+            "move": "tap_R",
+            "target": "Goku"
+          }
+        },
+        {
+          "t": 11.1,
+          "who": "Goku",
+          "knockback": {
+            "from": "Yamcha",
+            "to": [
+              -7.2,
+              4
+            ],
+            "distance": 3,
+            "height": 2.5,
+            "pose": "curl"
+          },
+          "face": "scream"
+        },
+        {
+          "t": 13.3,
+          "who": "Yamcha",
+          "turn": 0,
+          "pose": "proud",
+          "aura": {
+            "s": 2.0,
+            "color": "#FFD23F"
+          }
+        },
+        {
+          "t": 13.6,
+          "who": "Yamcha",
+          "talk": 1.44,
+          "say": "Who's the joke now?",
+          "face": "smug",
+          "gesture": false
+        }
+      ],
+      "shots": [
+        {
+          "t": 0,
+          "kind": "medium",
+          "on": [
+            "Goku"
+          ],
+          "hold": true
+        },
+        {
+          "t": 2.6,
+          "kind": "medium",
+          "on": [
+            "Yamcha"
+          ],
+          "hold": true
+        },
+        {
+          "t": 4.6,
+          "kind": "full",
+          "on": [
+            "Goku"
+          ],
+          "angle": "low",
+          "lens": 32,
+          "hold": true
+        },
+        {
+          "t": 6.3,
+          "kind": "close",
+          "on": [
+            "Goku"
+          ],
+          "hold": true
+        },
+        {
+          "t": 7.7,
+          "kind": "wide",
+          "on": [
+            "Goku",
+            "Yamcha"
+          ],
+          "lens": 28,
+          "keep_two": true,
+          "shake": [
+            7.8
+          ]
+        },
+        {
+          "t": 8.5,
+          "kind": "full",
+          "on": [
+            "Yamcha",
+            "Goku"
+          ],
+          "lens": 35,
+          "keep_two": true
+        },
+        {
+          "t": 11.5,
+          "kind": "wide",
+          "on": [
+            "Goku"
+          ],
+          "lens": 30
+        },
+        {
+          "t": 13.3,
+          "kind": "medium",
+          "on": [
+            "Yamcha"
+          ],
+          "hold": true
+        }
+      ]
+    },
+    {
+      "music": "chill",
+      "pitch": false,
+      "establish": false,
+      "set": {
+        "preset": "room",
+        "mood": "warm",
+        "size": [
+          26,
+          22
+        ],
+        "wall": "#E6D7B5",
+        "floor": "wood",
+        "windows": [
+          [
+            "back",
+            -6,
+            6,
+            5,
+            3
+          ]
+        ],
+        "doors": [
+          [
+            "right",
+            5,
+            5
+          ]
+        ],
+        "dress": [
+          {
+            "asset": "desk",
+            "at": [
+              0,
+              -1
+            ],
+            "rot": 180,
+            "name": "desk"
+          },
+          {
+            "asset": "chairDesk",
+            "at": [
+              0,
+              1.8
+            ],
+            "rot": 0,
+            "name": "desk chair"
+          },
+          {
+            "asset": "bedSingle",
+            "at": [
+              -8.5,
+              6.5
+            ],
+            "name": "bed"
+          },
+          {
+            "asset": "rugRound",
+            "at": [
+              0,
+              3
+            ],
+            "solid": false
+          },
+          {
+            "asset": "lampRoundFloor",
+            "at": [
+              10.5,
+              8.5
+            ]
+          },
+          {
+            "asset": "pottedPlant",
+            "at": [
+              -11,
+              -6
+            ]
+          },
+          {
+            "row": [
+              "bookcaseClosedWide",
+              "bookcaseOpen"
+            ],
+            "wall": "back",
+            "start": 4
+          }
+        ]
+      },
+      "seconds": 19.3,
+      "cast": [
+        {
+          "name": "Yamcha",
+          "at": [
+            0,
+            3.2
+          ],
+          "yaw": 0,
+          "face": "smile",
+          "shirt": "#3A3F4B",
+          "pants": "#2B3A55",
+          "outfit": {
+            "shirt": "lib:hoodie1",
+            "pants": "lib:jeans1"
+          }
+        },
+        {
+          "name": "Vegeta",
+          "at": [
+            3.2,
+            6
+          ],
+          "yaw": 10,
+          "face": "angry"
+        }
+      ],
+      "props": [
+        {
+          "name": "screen",
+          "kind": "screen:stories/parody_dbz_fight/screen.png",
+          "on": "desk",
+          "at": [
+            -1.3,
+            -0.3
+          ],
+          "rot": 205
+        },
+        {
+          "name": "keyboard",
+          "kind": "computerKeyboard",
+          "on": "desk",
+          "at": [
+            0.2,
+            0.5
+          ],
+          "rot": 180
+        }
+      ],
+      "beats": [
+        {
+          "t": 0,
+          "who": "Yamcha",
+          "sit": "desk chair",
+          "look": "screen"
+        },
+        {
+          "t": 0.1,
+          "who": "Yamcha",
+          "pose": {
+            "R": [
+              34,
+              -8
+            ],
+            "L": [
+              34,
+              8
+            ],
+            "head": [
+              8,
+              0,
+              0
+            ]
+          },
+          "wiggle": "R",
+          "wiggle_s": 5.0,
+          "type": 5.2
+        },
+        {
+          "t": 0.1,
+          "who": "Vegeta",
+          "pose": "arms_crossed",
+          "look": "screen",
+          "face": "angry"
+        },
+        {
+          "t": 0.4,
+          "who": "Yamcha",
+          "talk": 4.86,
+          "say": "",
+          "face": "smile",
+          "gesture": false
+        },
+        {
+          "t": 5.5,
+          "who": "Vegeta",
+          "talk": 2.61,
+          "say": "YOU DIDN'T TRAIN! YOU TYPED IT!",
+          "face": "scream",
+          "pose": "angry"
+        },
+        {
+          "t": 5.6,
+          "who": "Yamcha",
+          "face": "o",
+          "exclaim": true,
+          "pose": "recoil"
+        },
+        {
+          "t": 8.2,
+          "who": "Yamcha",
+          "look": "Vegeta"
+        },
+        {
+          "t": 8.9,
+          "who": "Yamcha",
+          "talk": 1.96,
+          "say": "...same thing?",
+          "face": "sheepish",
+          "pose": "shrug",
+          "gesture": false
+        },
+        {
+          "t": 11.0,
+          "who": "Vegeta",
+          "look": "Yamcha",
+          "turn": 0
+        },
+        {
+          "t": 11.2,
+          "who": "Vegeta",
+          "talk": 5.93,
+          "say": "If you want to make animated Shorts like this with Claude... the full video is in the link below.",
+          "face": "angry",
+          "pose": "explain_R"
+        },
+        {
+          "t": 16.5,
+          "who": "Yamcha",
+          "stand": true
+        },
+        {
+          "t": 17.4,
+          "who": "Yamcha",
+          "talk": 1.41,
+          "say": "Go! Click it!",
+          "face": "smile",
+          "pose": "wave_R",
+          "jump": 0.6
+        }
+      ],
+      "shots": [
+        {
+          "t": 0,
+          "kind": "medium",
+          "on": [
+            "Yamcha"
+          ],
+          "hold": true
+        },
+        {
+          "t": 3.9,
+          "kind": "full",
+          "on": [
+            "Yamcha",
+            "Vegeta"
+          ],
+          "hold": true,
+          "keep_two": true,
+          "lens": 35
+        },
+        {
+          "t": 5.4,
+          "kind": "close",
+          "on": [
+            "Vegeta"
+          ],
+          "hold": true
+        },
+        {
+          "t": 6.9,
+          "kind": "medium",
+          "on": [
+            "Yamcha",
+            "Vegeta"
+          ],
+          "hold": true,
+          "keep_two": true
+        },
+        {
+          "t": 8.9,
+          "kind": "medium",
+          "on": [
+            "Yamcha"
+          ],
+          "hold": true
+        },
+        {
+          "t": 11.0,
+          "kind": "medium",
+          "on": [
+            "Vegeta"
+          ],
+          "hold": true
+        },
+        {
+          "t": 14.0,
+          "kind": "close",
+          "on": [
+            "Vegeta"
+          ],
+          "hold": true
+        },
+        {
+          "t": 17.0,
+          "kind": "medium",
+          "on": [
+            "Yamcha",
+            "Vegeta"
+          ],
+          "hold": true,
+          "keep_two": true
+        }
+      ]
+    }
+  ]
+}

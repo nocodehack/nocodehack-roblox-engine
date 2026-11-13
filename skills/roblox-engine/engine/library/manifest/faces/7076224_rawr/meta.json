@@ -1,0 +1,22 @@
+{
+ "id": "7076224",
+ "name": "RAWR!",
+ "slug": "rawr",
+ "texture_id": "7076211",
+ "emotion": "angry",
+ "talk_pair": null,
+ "intensity": 0.85,
+ "eyes": [
+  0.117,
+  0.369
+ ],
+ "mouth": [
+  0.426,
+  0.581,
+  0.586,
+  0.798
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

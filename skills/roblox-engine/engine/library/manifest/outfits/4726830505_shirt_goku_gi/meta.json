@@ -1,0 +1,11 @@
+{
+ "id": "4726830505",
+ "name": "DummyGoku 9213234604",
+ "kind": "shirt",
+ "tags": [
+  "goku_gi"
+ ],
+ "template_id": "4726830505",
+ "source": "DummyGoku 9213234604",
+ "note": "unused template regions (guide text, logos, bg) cleared to transparent by tools/dbz_outfits.py"
+}

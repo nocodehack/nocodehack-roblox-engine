@@ -1,0 +1,9 @@
+{
+ "id": 180436334,
+ "name": "climb",
+ "source": "Roblox default R6 Animate",
+ "duration": 0.458,
+ "loop": true,
+ "priority": "Core",
+ "keys": 11
+}

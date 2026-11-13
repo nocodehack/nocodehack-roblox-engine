@@ -1,0 +1,22 @@
+{
+ "id": "7317793",
+ "name": "Good Intentioned",
+ "slug": "good_intentioned",
+ "texture_id": "7317606",
+ "emotion": "sheepish",
+ "talk_pair": null,
+ "intensity": 0.65,
+ "eyes": [
+  0.124,
+  0.369
+ ],
+ "mouth": [
+  0.326,
+  0.593,
+  0.683,
+  0.788
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

@@ -1,0 +1,22 @@
+{
+ "id": "25321961",
+ "name": "Friendly Grin",
+ "slug": "friendly_grin",
+ "texture_id": "25321744",
+ "emotion": "happy",
+ "talk_pair": null,
+ "intensity": 0.76,
+ "eyes": [
+  0.226,
+  0.371
+ ],
+ "mouth": [
+  0.295,
+  0.545,
+  0.707,
+  0.807
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

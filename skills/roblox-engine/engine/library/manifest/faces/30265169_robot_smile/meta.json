@@ -1,0 +1,22 @@
+{
+ "id": "30265169",
+ "name": "Robot Smile",
+ "slug": "robot_smile",
+ "texture_id": "30265036",
+ "emotion": "sheepish",
+ "talk_pair": null,
+ "intensity": 0.82,
+ "eyes": [
+  0.179,
+  0.374
+ ],
+ "mouth": [
+  0.302,
+  0.571,
+  0.698,
+  0.798
+ ],
+ "mouth_open": true,
+ "auto": false,
+ "family": "classic"
+}

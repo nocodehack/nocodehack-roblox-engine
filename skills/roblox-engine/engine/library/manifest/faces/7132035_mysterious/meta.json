@@ -1,0 +1,22 @@
+{
+ "id": "7132035",
+ "name": "Mysterious",
+ "slug": "mysterious",
+ "texture_id": "7132019",
+ "emotion": "smug",
+ "talk_pair": null,
+ "intensity": 0.23,
+ "eyes": [
+  0.24,
+  0.352
+ ],
+ "mouth": [
+  0.288,
+  0.602,
+  0.698,
+  0.712
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

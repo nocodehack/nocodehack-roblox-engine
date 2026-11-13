@@ -1,0 +1,22 @@
+{
+ "id": "117522793",
+ "name": "Sadfaic",
+ "slug": "sadfaic",
+ "texture_id": "629925029",
+ "emotion": "cry",
+ "talk_pair": null,
+ "intensity": 0.9,
+ "eyes": [
+  0.264,
+  0.405
+ ],
+ "mouth": [
+  0.3,
+  0.56,
+  0.7,
+  0.788
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

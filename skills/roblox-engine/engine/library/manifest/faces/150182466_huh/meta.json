@@ -1,0 +1,22 @@
+{
+ "id": "150182466",
+ "name": "Huh?",
+ "slug": "huh",
+ "texture_id": "150070505",
+ "emotion": "confused",
+ "talk_pair": null,
+ "intensity": 0.84,
+ "eyes": [
+  0.119,
+  0.34
+ ],
+ "mouth": [
+  0.312,
+  0.512,
+  0.75,
+  0.783
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

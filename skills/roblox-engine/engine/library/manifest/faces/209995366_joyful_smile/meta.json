@@ -1,0 +1,22 @@
+{
+ "id": "209995366",
+ "name": "Joyful Smile",
+ "slug": "joyful_smile",
+ "texture_id": "209713384",
+ "emotion": "joy",
+ "talk_pair": null,
+ "intensity": 0.67,
+ "eyes": [
+  0.188,
+  0.369
+ ],
+ "mouth": [
+  0.305,
+  0.579,
+  0.693,
+  0.788
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

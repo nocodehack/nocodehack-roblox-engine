@@ -1,0 +1,23 @@
+{
+ "id": "8560971",
+ "name": "Stare",
+ "slug": "stare",
+ "texture_id": "8560915",
+ "emotion": "neutral",
+ "talk_pair": "7317773",
+ "intensity": 0.26,
+ "eyes": [
+  0.231,
+  0.369
+ ],
+ "mouth": [
+  0.31,
+  0.657,
+  0.7,
+  0.726
+ ],
+ "mouth_open": false,
+ "auto": true,
+ "family": "classic",
+ "pair_ok": true
+}

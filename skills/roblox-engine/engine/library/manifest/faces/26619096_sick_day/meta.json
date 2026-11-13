@@ -1,0 +1,22 @@
+{
+ "id": "26619096",
+ "name": "Sick Day",
+ "slug": "sick_day",
+ "texture_id": "26619042",
+ "emotion": "disgust",
+ "talk_pair": null,
+ "intensity": 0.46,
+ "eyes": [
+  0.171,
+  0.369
+ ],
+ "mouth": [
+  0.288,
+  0.624,
+  0.712,
+  0.736
+ ],
+ "mouth_open": true,
+ "auto": false,
+ "family": "classic"
+}

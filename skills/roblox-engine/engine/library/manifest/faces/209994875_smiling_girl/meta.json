@@ -1,0 +1,23 @@
+{
+ "id": "209994875",
+ "name": "Smiling Girl",
+ "slug": "smiling_girl",
+ "texture_id": "209713952",
+ "emotion": "happy",
+ "talk_pair": "209995366",
+ "intensity": 0.52,
+ "eyes": [
+  0.226,
+  0.371
+ ],
+ "mouth": [
+  0.314,
+  0.61,
+  0.686,
+  0.779
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic",
+ "pair_ok": false
+}

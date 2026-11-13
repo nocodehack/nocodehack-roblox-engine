@@ -1,0 +1,22 @@
+{
+ "id": "7074991",
+ "name": "Fearless",
+ "slug": "fearless",
+ "texture_id": "7074972",
+ "emotion": "smug",
+ "talk_pair": null,
+ "intensity": 0.61,
+ "eyes": [
+  0.14,
+  0.36
+ ],
+ "mouth": [
+  0.312,
+  0.571,
+  0.7,
+  0.75
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

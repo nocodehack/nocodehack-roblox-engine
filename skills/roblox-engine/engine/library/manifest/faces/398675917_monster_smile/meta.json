@@ -1,0 +1,22 @@
+{
+ "id": "398675917",
+ "name": "Monster Smile",
+ "slug": "monster_smile",
+ "texture_id": "398671601",
+ "emotion": "evil",
+ "talk_pair": null,
+ "intensity": 1.0,
+ "eyes": [
+  0.169,
+  0.36
+ ],
+ "mouth": [
+  0.321,
+  0.586,
+  0.679,
+  0.793
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

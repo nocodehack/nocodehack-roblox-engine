@@ -1,0 +1,9 @@
+{
+ "id": 180435571,
+ "name": "idle",
+ "source": "Roblox default R6 Animate",
+ "duration": 1,
+ "loop": true,
+ "priority": "Core",
+ "keys": 21
+}

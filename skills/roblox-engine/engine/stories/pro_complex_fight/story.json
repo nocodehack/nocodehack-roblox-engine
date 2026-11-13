@@ -1,0 +1,620 @@
+{
+  "title": "Desert Rivals",
+  "fps": 24,
+  "mood": "battle",
+  "cast": [
+    {
+      "name": "Kai",
+      "shirt": "#E8742A",
+      "pants": "#2B3A55",
+      "hair": "#E8C23D",
+      "hair_style": "lib:spiky_anime1",
+      "face": "smug",
+      "face_family": "drawn"
+    },
+    {
+      "name": "Ren",
+      "shirt": "#2E6F9C",
+      "pants": "#1B2A35",
+      "hair": "#2A2A2E",
+      "hair_style": "lib:short_anime1",
+      "face": "neutral",
+      "face_family": "drawn"
+    }
+  ],
+  "scenes": [
+    {
+      "pitch": false,
+      "establish": false,
+      "set": {
+        "preset": "wasteland",
+        "mood": "default"
+      },
+      "seconds": 15,
+      "cast": [
+        {
+          "name": "Kai",
+          "at": [
+            -7,
+            0
+          ],
+          "yaw": 90,
+          "face": "smug"
+        },
+        {
+          "name": "Ren",
+          "at": [
+            5,
+            0
+          ],
+          "yaw": -90,
+          "face": "neutral"
+        }
+      ],
+      "beats": [
+        {
+          "t": 0.1,
+          "who": "Ren",
+          "pose": "arms_crossed",
+          "face": "neutral"
+        },
+        {
+          "t": 0.3,
+          "who": "Kai",
+          "talk": 3.0,
+          "say": "So you're the one they call the Wall.",
+          "face": "smug",
+          "pose": "proud"
+        },
+        {
+          "t": 3.6,
+          "who": "Ren",
+          "talk": 1.2,
+          "say": "Hn. Talk less.",
+          "face": "neutral"
+        },
+        {
+          "t": 5.2,
+          "who": "Kai",
+          "talk": 2.7,
+          "say": "Fine. Let me show you real power!",
+          "face": "angry",
+          "pose": "angry"
+        },
+        {
+          "t": 8.0,
+          "who": "Kai",
+          "power_up": 3.0,
+          "face": "scream",
+          "aura_color": "#FFD23F"
+        },
+        {
+          "t": 11.8,
+          "who": "Ren",
+          "talk": 1.2,
+          "say": "Is that all?",
+          "face": "smug"
+        }
+      ],
+      "shots": [
+        {
+          "t": 0,
+          "kind": "medium",
+          "on": [
+            "Kai"
+          ],
+          "hold": true
+        },
+        {
+          "t": 3.5,
+          "kind": "medium",
+          "on": [
+            "Ren"
+          ],
+          "hold": true
+        },
+        {
+          "t": 5.1,
+          "kind": "close",
+          "on": [
+            "Kai"
+          ],
+          "hold": true
+        },
+        {
+          "t": 7.9,
+          "kind": "full",
+          "on": [
+            "Kai",
+            "Ren"
+          ],
+          "lens": 35,
+          "hold": true,
+          "keep_two": true,
+          "profile": true
+        },
+        {
+          "t": 11.6,
+          "kind": "close",
+          "on": [
+            "Ren"
+          ],
+          "hold": true
+        }
+      ]
+    },
+    {
+      "pitch": false,
+      "establish": false,
+      "set": {
+        "preset": "wasteland",
+        "mood": "default"
+      },
+      "seconds": 15,
+      "cast": [
+        {
+          "name": "Kai",
+          "at": [
+            -6,
+            0
+          ],
+          "yaw": 90,
+          "face": "angry"
+        },
+        {
+          "name": "Ren",
+          "at": [
+            6,
+            0
+          ],
+          "yaw": -90,
+          "face": "neutral"
+        }
+      ],
+      "beats": [
+        {
+          "t": 0.3,
+          "who": "Kai",
+          "talk": 1.6,
+          "say": "Take this! Blaze Cannon!",
+          "face": "scream",
+          "pose": "angry"
+        },
+        {
+          "t": 4.5,
+          "who": "Kai",
+          "beam": {
+            "to": "Ren",
+            "charge": 3.0,
+            "s": 1.8,
+            "color": "#FF8C2A",
+            "hands": "both",
+            "size": 1.8,
+            "deflect": {
+              "after": 0.6,
+              "to": [
+                20,
+                30,
+                40
+              ]
+            }
+          },
+          "face": "scream"
+        },
+        {
+          "t": 5.0,
+          "who": "Ren",
+          "pose": "dismiss_R",
+          "face": "neutral"
+        },
+        {
+          "t": 6.9,
+          "who": "Kai",
+          "face": "o",
+          "pose": "shock"
+        },
+        {
+          "t": 7.4,
+          "who": "Kai",
+          "talk": 0.8,
+          "say": "Impossible!",
+          "face": "scream"
+        },
+        {
+          "t": 9.0,
+          "who": "Ren",
+          "talk": 0.8,
+          "say": "My turn.",
+          "face": "smug",
+          "pose": "proud"
+        },
+        {
+          "t": 11.0,
+          "who": "Ren",
+          "aura": {
+            "s": 3.0,
+            "color": "#5AC8FF"
+          },
+          "face": "angry"
+        }
+      ],
+      "shots": [
+        {
+          "t": 0,
+          "kind": "medium",
+          "on": [
+            "Kai"
+          ],
+          "hold": true
+        },
+        {
+          "t": 2.0,
+          "kind": "full",
+          "on": [
+            "Kai"
+          ],
+          "angle": "low",
+          "lens": 32,
+          "hold": true
+        },
+        {
+          "t": 4.4,
+          "kind": "wide",
+          "on": [
+            "Kai",
+            "Ren"
+          ],
+          "lens": 28,
+          "hold": true,
+          "keep_two": true,
+          "profile": true,
+          "shake": [
+            4.5
+          ]
+        },
+        {
+          "t": 6.8,
+          "kind": "close",
+          "on": [
+            "Kai"
+          ],
+          "hold": true
+        },
+        {
+          "t": 8.9,
+          "kind": "close",
+          "on": [
+            "Ren"
+          ],
+          "hold": true
+        },
+        {
+          "t": 11.0,
+          "kind": "full",
+          "on": [
+            "Ren",
+            "Kai"
+          ],
+          "lens": 35,
+          "hold": true,
+          "keep_two": true,
+          "profile": true
+        }
+      ]
+    },
+    {
+      "pitch": false,
+      "establish": false,
+      "set": {
+        "preset": "wasteland",
+        "mood": "default"
+      },
+      "seconds": 13,
+      "cast": [
+        {
+          "name": "Kai",
+          "at": [
+            -3,
+            0
+          ],
+          "yaw": 90,
+          "face": "angry"
+        },
+        {
+          "name": "Ren",
+          "at": [
+            3,
+            0
+          ],
+          "yaw": -90,
+          "face": "angry"
+        }
+      ],
+      "beats": [
+        {
+          "t": 0.4,
+          "who": "Kai",
+          "talk": 0.8,
+          "say": "Hyaaa!",
+          "face": "scream"
+        },
+        {
+          "t": 1.3,
+          "who": "Kai",
+          "attack": {
+            "flurry": [
+              "punch_R",
+              "punch_L",
+              "punch_R",
+              "kick_R",
+              "punch_L",
+              "punch_R"
+            ],
+            "target": "Ren",
+            "blocked": true,
+            "s": 1.8
+          }
+        },
+        {
+          "t": 4.0,
+          "who": "Ren",
+          "attack": {
+            "flurry": [
+              "punch_L",
+              "punch_R",
+              "punch_L",
+              "kick_R",
+              "punch_R",
+              "punch_L"
+            ],
+            "target": "Kai",
+            "blocked": true,
+            "s": 1.8
+          }
+        },
+        {
+          "t": 6.0,
+          "who": "Ren",
+          "talk": 1.2,
+          "say": "Not enough.",
+          "face": "smug"
+        },
+        {
+          "t": 7.5,
+          "who": "Kai",
+          "attack": {
+            "move": "punch_R",
+            "target": "Ren",
+            "blocked": true,
+            "hold": 0.45,
+            "relax": true
+          }
+        },
+        {
+          "t": 8.2,
+          "who": "Ren",
+          "attack": {
+            "move": "uppercut_R",
+            "target": "Kai"
+          },
+          "face": "angry"
+        },
+        {
+          "t": 8.3,
+          "who": "Kai",
+          "knockback": {
+            "from": "Ren",
+            "to": [
+              -9.5,
+              0.5
+            ],
+            "height": 6,
+            "pose": "curl"
+          },
+          "face": "scream"
+        }
+      ],
+      "shots": [
+        {
+          "t": 0,
+          "kind": "close",
+          "on": [
+            "Kai"
+          ],
+          "hold": true
+        },
+        {
+          "t": 1.0,
+          "kind": "full",
+          "on": [
+            "Kai",
+            "Ren"
+          ],
+          "lens": 35,
+          "hold": true,
+          "keep_two": true,
+          "profile": true
+        },
+        {
+          "t": 5.9,
+          "kind": "close",
+          "on": [
+            "Ren"
+          ],
+          "hold": true
+        },
+        {
+          "t": 7.2,
+          "kind": "full",
+          "on": [
+            "Ren",
+            "Kai"
+          ],
+          "lens": 32,
+          "hold": true,
+          "keep_two": true,
+          "profile": true,
+          "shake": [
+            8.2
+          ]
+        },
+        {
+          "t": 9.4,
+          "kind": "wide",
+          "on": [
+            "Kai"
+          ],
+          "angle": "top",
+          "profile": true,
+          "lens": 35,
+          "frame": 11,
+          "move": "still",
+          "hold": true
+        }
+      ]
+    },
+    {
+      "pitch": false,
+      "establish": false,
+      "set": {
+        "preset": "wasteland",
+        "mood": "sunset"
+      },
+      "seconds": 15,
+      "cast": [
+        {
+          "name": "Kai",
+          "at": [
+            -12.3,
+            0.1
+          ],
+          "yaw": 90,
+          "face": "sad"
+        },
+        {
+          "name": "Ren",
+          "at": [
+            -3.5,
+            0.5
+          ],
+          "yaw": -90,
+          "face": "neutral"
+        }
+      ],
+      "beats": [
+        {
+          "t": 0.1,
+          "who": "Kai",
+          "fall": "back"
+        },
+        {
+          "t": 0.5,
+          "who": "Ren",
+          "talk": 1.1,
+          "say": "Get up. Talk.",
+          "face": "neutral",
+          "pose": "arms_crossed"
+        },
+        {
+          "t": 2.6,
+          "who": "Kai",
+          "get_up": true,
+          "face": "sad"
+        },
+        {
+          "t": 5.0,
+          "who": "Kai",
+          "talk": 2.7,
+          "say": "Okay... you win. I'm done.",
+          "face": "sad",
+          "pose": "shrug"
+        },
+        {
+          "t": 8.0,
+          "who": "Ren",
+          "face": "smile",
+          "talk": 1.2,
+          "say": "Good fight, rival."
+        },
+        {
+          "t": 9.6,
+          "who": "Kai",
+          "face": "laugh",
+          "talk": 1.1,
+          "say": "Ha! Next time!",
+          "pose": "cheer"
+        },
+        {
+          "t": 10.9,
+          "who": "Ren",
+          "face": "laugh",
+          "talk": 1.5,
+          "say": ""
+        }
+      ],
+      "shots": [
+        {
+          "t": 0,
+          "kind": "wide",
+          "on": [
+            "Kai"
+          ],
+          "angle": "top",
+          "profile": true,
+          "lens": 35,
+          "frame": 11,
+          "move": "still",
+          "hold": true
+        },
+        {
+          "t": 2.0,
+          "kind": "full",
+          "on": [
+            "Ren",
+            "Kai"
+          ],
+          "lens": 35,
+          "hold": true,
+          "keep_two": true,
+          "profile": true
+        },
+        {
+          "t": 4.9,
+          "kind": "close",
+          "on": [
+            "Kai"
+          ],
+          "hold": true
+        },
+        {
+          "t": 7.9,
+          "kind": "close",
+          "on": [
+            "Ren"
+          ],
+          "hold": true
+        },
+        {
+          "t": 9.5,
+          "kind": "close",
+          "on": [
+            "Kai"
+          ],
+          "hold": true
+        },
+        {
+          "t": 11.5,
+          "kind": "full",
+          "on": [
+            "Ren",
+            "Kai"
+          ],
+          "lens": 35,
+          "hold": true,
+          "keep_two": true,
+          "profile": true
+        }
+      ]
+    }
+  ]
+}

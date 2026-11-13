@@ -1,0 +1,140 @@
+{
+  "title": "3 AM house",
+  "format": "time_skit",
+  "header": "when you wake up at 3 AM and the whole house is awake",
+  "mood": "chill",
+  "cards": [
+    {
+      "type": "time",
+      "text": "3:00 AM",
+      "scene": 1,
+      "t": 0.0,
+      "dur": 1.6
+    },
+    {
+      "type": "time",
+      "text": "3:05 AM",
+      "scene": 2,
+      "t": 0.0,
+      "dur": 1.6
+    }
+  ],
+  "cast": [
+    {
+      "name": "Kid",
+      "shirt": "#2E9C9A",
+      "pants": "#1B2A35",
+      "hair": "#5A3A22",
+      "hair_style": "short",
+      "face": "smile"
+    },
+    {
+      "name": "Mom",
+      "shirt": "#C4281C",
+      "pants": "#1B2A35",
+      "hair": "#E8A33D",
+      "hair_style": "ponytail",
+      "face": "smile"
+    },
+    {
+      "name": "Dad",
+      "shirt": "#4A5FC1",
+      "pants": "#1B2A35",
+      "hair": "#2A2A2E",
+      "hair_style": "short",
+      "face": "smile"
+    }
+  ],
+  "scenes": [
+    {
+      "set": {
+        "preset": "bedroom",
+        "time": "night"
+      },
+      "seconds": 8,
+      "cast": [
+        {
+          "name": "Kid",
+          "at": [
+            0,
+            -4
+          ]
+        }
+      ],
+      "beats": [
+        {
+          "t": 2.0,
+          "who": "Kid",
+          "face": "confused"
+        },
+        {
+          "t": 5.0,
+          "who": "Kid",
+          "face": "scared",
+          "walk": [
+            [
+              0,
+              4
+            ]
+          ],
+          "speed": 5
+        }
+      ],
+      "camera": "static_wide"
+    },
+    {
+      "set": {
+        "preset": "kitchen",
+        "time": "night"
+      },
+      "seconds": 8,
+      "cast": [
+        {
+          "name": "Kid",
+          "at": [
+            0,
+            -6
+          ]
+        },
+        {
+          "name": "Mom",
+          "at": [
+            -5,
+            2
+          ],
+          "yaw": 20
+        },
+        {
+          "name": "Dad",
+          "at": [
+            5,
+            2
+          ],
+          "yaw": -20
+        }
+      ],
+      "beats": [
+        {
+          "t": 1.5,
+          "who": "Mom",
+          "face": "joy",
+          "talk": 1.2,
+          "say": "Pancakes?"
+        },
+        {
+          "t": 3.5,
+          "who": "Dad",
+          "face": "grin",
+          "talk": 1.0,
+          "say": "Pancakes!"
+        },
+        {
+          "t": 5.5,
+          "who": "Kid",
+          "face": "scream"
+        }
+      ],
+      "camera": "static_wide"
+    }
+  ]
+}

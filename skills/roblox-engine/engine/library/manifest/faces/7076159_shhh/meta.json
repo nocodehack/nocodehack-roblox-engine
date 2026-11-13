@@ -1,0 +1,22 @@
+{
+ "id": "7076159",
+ "name": "Shhh...",
+ "slug": "shhh",
+ "texture_id": "629925953",
+ "emotion": "neutral",
+ "talk_pair": null,
+ "intensity": 0.56,
+ "eyes": [
+  0.236,
+  0.36
+ ],
+ "mouth": [
+  0.314,
+  0.576,
+  0.688,
+  0.795
+ ],
+ "mouth_open": true,
+ "auto": false,
+ "family": "classic"
+}

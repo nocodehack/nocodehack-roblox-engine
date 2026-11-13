@@ -1,0 +1,22 @@
+{
+ "id": "406001052",
+ "name": "XD 2.0",
+ "slug": "xd_2_0",
+ "texture_id": "405706156",
+ "emotion": "laugh",
+ "talk_pair": null,
+ "intensity": 0.95,
+ "eyes": [
+  0.229,
+  0.457
+ ],
+ "mouth": [
+  0.331,
+  0.55,
+  0.648,
+  0.776
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

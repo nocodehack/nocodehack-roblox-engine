@@ -1,0 +1,22 @@
+{
+ "id": "33321848",
+ "name": "Cheerful Grin",
+ "slug": "cheerful_grin",
+ "texture_id": "33321688",
+ "emotion": "joy",
+ "talk_pair": null,
+ "intensity": 0.9,
+ "eyes": [
+  0.176,
+  0.371
+ ],
+ "mouth": [
+  0.281,
+  0.586,
+  0.71,
+  0.788
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

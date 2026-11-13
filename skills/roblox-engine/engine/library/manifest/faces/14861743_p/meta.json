@@ -1,0 +1,22 @@
+{
+ "id": "14861743",
+ "name": ":P",
+ "slug": "p",
+ "texture_id": "14861556",
+ "emotion": "silly",
+ "talk_pair": null,
+ "intensity": 0.32,
+ "eyes": [
+  0.25,
+  0.352
+ ],
+ "mouth": [
+  0.364,
+  0.562,
+  0.64,
+  0.75
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

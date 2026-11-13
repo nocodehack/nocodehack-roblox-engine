@@ -1,0 +1,22 @@
+{
+ "id": "391496223",
+ "name": "Big Sad Eyes",
+ "slug": "big_sad_eyes",
+ "texture_id": "629933140",
+ "emotion": "sad",
+ "talk_pair": null,
+ "intensity": 0.42,
+ "eyes": [
+  0.117,
+  0.381
+ ],
+ "mouth": [
+  0.333,
+  0.61,
+  0.652,
+  0.681
+ ],
+ "mouth_open": false,
+ "auto": true,
+ "family": "classic"
+}

@@ -1,0 +1,109 @@
+{
+  "title": "Dentist",
+  "format": "versus",
+  "header": "cautious sibling vs reckless sibling at the dentist",
+  "split": [
+    [
+      1,
+      2
+    ]
+  ],
+  "mood": "cheery",
+  "cards": [
+    {
+      "type": "label",
+      "text": "CAUTIOUS",
+      "scene": 1,
+      "t": 0.0,
+      "dur": 8.0
+    },
+    {
+      "type": "label",
+      "text": "RECKLESS",
+      "scene": 2,
+      "t": 0.0,
+      "dur": 8.0
+    }
+  ],
+  "cast": [
+    {
+      "name": "Careful",
+      "shirt": "#2E9C9A",
+      "pants": "#1B2A35",
+      "hair": "#5A3A22",
+      "hair_style": "short",
+      "face": "smile"
+    },
+    {
+      "name": "Wild",
+      "shirt": "#C4281C",
+      "pants": "#1B2A35",
+      "hair": "#7A1212",
+      "hair_style": "spiky",
+      "face": "smile"
+    }
+  ],
+  "scenes": [
+    {
+      "set": {
+        "preset": "bathroom"
+      },
+      "seconds": 9,
+      "cast": [
+        {
+          "name": "Careful",
+          "at": [
+            0,
+            -4
+          ]
+        }
+      ],
+      "beats": [
+        {
+          "t": 1.0,
+          "who": "Careful",
+          "face": "worry",
+          "talk": 1.5,
+          "say": "Is it clean?"
+        },
+        {
+          "t": 4.0,
+          "who": "Careful",
+          "face": "smile",
+          "pose": "proud"
+        }
+      ],
+      "camera": "static_wide"
+    },
+    {
+      "set": {
+        "preset": "bathroom"
+      },
+      "seconds": 9,
+      "cast": [
+        {
+          "name": "Wild",
+          "at": [
+            0,
+            -4
+          ]
+        }
+      ],
+      "beats": [
+        {
+          "t": 1.0,
+          "who": "Wild",
+          "face": "grin",
+          "talk": 1.5,
+          "say": "Do the big drill!"
+        },
+        {
+          "t": 4.0,
+          "who": "Wild",
+          "face": "scream"
+        }
+      ],
+      "camera": "static_wide"
+    }
+  ]
+}

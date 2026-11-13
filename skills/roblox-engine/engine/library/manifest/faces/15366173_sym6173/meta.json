@@ -1,0 +1,22 @@
+{
+ "id": "15366173",
+ "name": "^_^",
+ "slug": "sym6173",
+ "texture_id": "15365479",
+ "emotion": "joy",
+ "talk_pair": null,
+ "intensity": 0.11,
+ "eyes": [
+  0.302,
+  0.438
+ ],
+ "mouth": [
+  0.312,
+  0.671,
+  0.688,
+  0.712
+ ],
+ "mouth_open": false,
+ "auto": false,
+ "family": "classic"
+}

@@ -1,0 +1,22 @@
+{
+ "id": "226217449",
+ "name": "Laughing Fun",
+ "slug": "laughing_fun",
+ "texture_id": "226216895",
+ "emotion": "laugh",
+ "talk_pair": null,
+ "intensity": 0.85,
+ "eyes": [
+  0.295,
+  0.367
+ ],
+ "mouth": [
+  0.305,
+  0.579,
+  0.693,
+  0.788
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

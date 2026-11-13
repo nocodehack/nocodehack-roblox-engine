@@ -1,0 +1,11 @@
+{
+ "id": "5584916611",
+ "name": "Vegeta 8380301490",
+ "kind": "shirt",
+ "tags": [
+  "vegeta_armor"
+ ],
+ "template_id": "5584916611",
+ "source": "Vegeta 8380301490",
+ "note": "unused template regions (guide text, logos, bg) cleared to transparent by tools/dbz_outfits.py"
+}

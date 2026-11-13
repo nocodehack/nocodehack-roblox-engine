@@ -1,0 +1,22 @@
+{
+ "id": "9250643",
+ "name": "Meanie",
+ "slug": "meanie",
+ "texture_id": "508490451",
+ "emotion": "evil",
+ "talk_pair": null,
+ "intensity": 0.56,
+ "eyes": [
+  0.16,
+  0.355
+ ],
+ "mouth": [
+  0.321,
+  0.569,
+  0.69,
+  0.74
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

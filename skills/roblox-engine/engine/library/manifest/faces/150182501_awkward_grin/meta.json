@@ -1,0 +1,22 @@
+{
+ "id": "150182501",
+ "name": "Awkward Grin",
+ "slug": "awkward_grin",
+ "texture_id": "150070305",
+ "emotion": "sheepish",
+ "talk_pair": null,
+ "intensity": 0.81,
+ "eyes": [
+  0.15,
+  0.34
+ ],
+ "mouth": [
+  0.343,
+  0.531,
+  0.702,
+  0.798
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

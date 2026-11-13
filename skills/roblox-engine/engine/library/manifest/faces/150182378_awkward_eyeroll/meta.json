@@ -1,0 +1,22 @@
+{
+ "id": "150182378",
+ "name": "Awkward Eyeroll",
+ "slug": "awkward_eyeroll",
+ "texture_id": "150070631",
+ "emotion": "disgust",
+ "talk_pair": null,
+ "intensity": 0.8,
+ "eyes": [
+  0.129,
+  0.367
+ ],
+ "mouth": [
+  0.362,
+  0.624,
+  0.688,
+  0.757
+ ],
+ "mouth_open": false,
+ "auto": true,
+ "family": "classic"
+}

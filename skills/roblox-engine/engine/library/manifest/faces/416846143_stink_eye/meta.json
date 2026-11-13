@@ -1,0 +1,22 @@
+{
+ "id": "416846143",
+ "name": "Stink Eye",
+ "slug": "stink_eye",
+ "texture_id": "416829404",
+ "emotion": "disgust",
+ "talk_pair": null,
+ "intensity": 0.9,
+ "eyes": [
+  0.152,
+  0.367
+ ],
+ "mouth": [
+  0.324,
+  0.681,
+  0.683,
+  0.781
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

@@ -1,0 +1,22 @@
+{
+ "id": "14030577",
+ "name": "I Hate Noobs",
+ "slug": "i_hate_noobs",
+ "texture_id": "14030506",
+ "emotion": "disgust",
+ "talk_pair": null,
+ "intensity": 0.05,
+ "eyes": [
+  0.288,
+  0.367
+ ],
+ "mouth": [
+  0.486,
+  0.569,
+  0.681,
+  0.645
+ ],
+ "mouth_open": false,
+ "auto": true,
+ "family": "classic"
+}

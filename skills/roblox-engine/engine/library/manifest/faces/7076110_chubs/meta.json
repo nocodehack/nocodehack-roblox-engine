@@ -1,0 +1,22 @@
+{
+ "id": "7076110",
+ "name": "Chubs",
+ "slug": "chubs",
+ "texture_id": "7076096",
+ "emotion": "neutral",
+ "talk_pair": null,
+ "intensity": 0.42,
+ "eyes": [
+  0.255,
+  0.352
+ ],
+ "mouth": [
+  0.288,
+  0.602,
+  0.707,
+  0.748
+ ],
+ "mouth_open": true,
+ "auto": false,
+ "family": "classic"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "nocodehack-roblox-engine",
+  "owner": { "name": "NoCodeHack", "url": "https://www.youtube.com/@nocodehack" },
+  "plugins": [
+    {
+      "name": "nocodehack",
+      "source": "./",
+      "description": "NoCodeHack Roblox Engine: animated Roblox-style Shorts from one line (story, animation, camera, sound). Free."
+    }
+  ]
+}

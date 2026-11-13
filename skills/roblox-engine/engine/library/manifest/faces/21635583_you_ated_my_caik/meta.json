@@ -1,0 +1,22 @@
+{
+ "id": "21635583",
+ "name": "You ated my caik!",
+ "slug": "you_ated_my_caik",
+ "texture_id": "21638407",
+ "emotion": "sad",
+ "talk_pair": null,
+ "intensity": 0.58,
+ "eyes": [
+  0.15,
+  0.369
+ ],
+ "mouth": [
+  0.333,
+  0.607,
+  0.66,
+  0.79
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

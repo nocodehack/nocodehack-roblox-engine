@@ -1,0 +1,22 @@
+{
+ "id": "1016186364",
+ "name": "Up To Something",
+ "slug": "up_to_something",
+ "texture_id": "1016181246",
+ "emotion": "smug",
+ "talk_pair": null,
+ "intensity": 0.52,
+ "eyes": [
+  0.21,
+  0.371
+ ],
+ "mouth": [
+  0.31,
+  0.626,
+  0.698,
+  0.786
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

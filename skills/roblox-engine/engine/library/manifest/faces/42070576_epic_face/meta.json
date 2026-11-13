@@ -1,0 +1,22 @@
+{
+ "id": "42070576",
+ "name": "Epic Face",
+ "slug": "epic_face",
+ "texture_id": "42070872",
+ "emotion": "laugh",
+ "talk_pair": null,
+ "intensity": 1.0,
+ "eyes": [
+  0.219,
+  0.4
+ ],
+ "mouth": [
+  0.252,
+  0.564,
+  0.767,
+  0.836
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "bigeye"
+}

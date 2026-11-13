@@ -1,0 +1,22 @@
+{
+ "id": "7317773",
+ "name": ":-o",
+ "slug": "o",
+ "texture_id": "7317691",
+ "emotion": "shock",
+ "talk_pair": null,
+ "intensity": 0.24,
+ "eyes": [
+  0.231,
+  0.369
+ ],
+ "mouth": [
+  0.426,
+  0.581,
+  0.586,
+  0.798
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

@@ -1,0 +1,22 @@
+{
+ "id": "20337343",
+ "name": "Disbelief",
+ "slug": "disbelief",
+ "texture_id": "20337265",
+ "emotion": "shock",
+ "talk_pair": null,
+ "intensity": 0.72,
+ "eyes": [
+  0.107,
+  0.379
+ ],
+ "mouth": [
+  0.298,
+  0.59,
+  0.705,
+  0.745
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

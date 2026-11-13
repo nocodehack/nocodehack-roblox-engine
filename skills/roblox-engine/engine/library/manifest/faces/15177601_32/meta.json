@@ -1,0 +1,22 @@
+{
+ "id": "15177601",
+ "name": ">:3",
+ "slug": "32",
+ "texture_id": "15177471",
+ "emotion": "smug",
+ "talk_pair": null,
+ "intensity": 0.49,
+ "eyes": [
+  0.198,
+  0.452
+ ],
+ "mouth": [
+  0.374,
+  0.624,
+  0.633,
+  0.798
+ ],
+ "mouth_open": true,
+ "auto": false,
+ "family": "classic"
+}

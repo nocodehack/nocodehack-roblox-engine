@@ -1,0 +1,22 @@
+{
+ "id": "7506141",
+ "name": "It's Go Time!",
+ "slug": "it_s_go_time",
+ "texture_id": "7506025",
+ "emotion": "evil",
+ "talk_pair": null,
+ "intensity": 0.58,
+ "eyes": [
+  0.15,
+  0.367
+ ],
+ "mouth": [
+  0.302,
+  0.617,
+  0.698,
+  0.764
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

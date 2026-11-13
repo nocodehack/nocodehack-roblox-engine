@@ -1,0 +1,22 @@
+{
+ "id": "14127194",
+ "name": "WHAAAaaa!",
+ "slug": "whaaaaaa",
+ "texture_id": "14123340",
+ "emotion": "cry",
+ "talk_pair": null,
+ "intensity": 1.0,
+ "eyes": [
+  0.267,
+  0.505
+ ],
+ "mouth": [
+  0.302,
+  0.576,
+  0.693,
+  0.817
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

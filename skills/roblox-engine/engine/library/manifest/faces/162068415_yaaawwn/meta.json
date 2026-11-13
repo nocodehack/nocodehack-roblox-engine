@@ -1,0 +1,22 @@
+{
+ "id": "162068415",
+ "name": "YAAAWWN.",
+ "slug": "yaaawwn",
+ "texture_id": "161124757",
+ "emotion": "sleepy",
+ "talk_pair": null,
+ "intensity": 0.39,
+ "eyes": [
+  0.164,
+  0.39
+ ],
+ "mouth": [
+  0.402,
+  0.569,
+  0.579,
+  0.793
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

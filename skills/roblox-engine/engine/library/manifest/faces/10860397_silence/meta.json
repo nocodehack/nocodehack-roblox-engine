@@ -1,0 +1,22 @@
+{
+ "id": "10860397",
+ "name": "Silence",
+ "slug": "silence",
+ "texture_id": "10749546",
+ "emotion": "neutral",
+ "talk_pair": null,
+ "intensity": 0.33,
+ "eyes": [
+  0.226,
+  0.367
+ ],
+ "mouth": [
+  0.398,
+  0.586,
+  0.61,
+  0.779
+ ],
+ "mouth_open": true,
+ "auto": false,
+ "family": "classic"
+}

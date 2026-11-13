@@ -1,0 +1,22 @@
+{
+ "id": "66330310",
+ "name": "Singing",
+ "slug": "singing",
+ "texture_id": "66329905",
+ "emotion": "joy",
+ "talk_pair": null,
+ "intensity": 0.16,
+ "eyes": [
+  0.317,
+  0.381
+ ],
+ "mouth": [
+  0.426,
+  0.602,
+  0.588,
+  0.795
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

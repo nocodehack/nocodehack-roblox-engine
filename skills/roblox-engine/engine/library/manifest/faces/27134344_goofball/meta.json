@@ -1,0 +1,22 @@
+{
+ "id": "27134344",
+ "name": "Goofball",
+ "slug": "goofball",
+ "texture_id": "27134272",
+ "emotion": "silly",
+ "talk_pair": null,
+ "intensity": 0.85,
+ "eyes": [
+  0.095,
+  0.4
+ ],
+ "mouth": [
+  0.295,
+  0.555,
+  0.712,
+  0.855
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

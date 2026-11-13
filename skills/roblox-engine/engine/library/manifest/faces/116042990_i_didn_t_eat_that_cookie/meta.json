@@ -1,0 +1,22 @@
+{
+ "id": "116042990",
+ "name": "I Didn't Eat That Cookie",
+ "slug": "i_didn_t_eat_that_cookie",
+ "texture_id": "115978221",
+ "emotion": "sheepish",
+ "talk_pair": null,
+ "intensity": 0.56,
+ "eyes": [
+  0.14,
+  0.376
+ ],
+ "mouth": [
+  0.348,
+  0.593,
+  0.633,
+  0.788
+ ],
+ "mouth_open": true,
+ "auto": false,
+ "family": "classic"
+}

@@ -1,0 +1,23 @@
+{
+ "id": "141728790",
+ "name": "Tired Face",
+ "slug": "tired_face",
+ "texture_id": "141728515",
+ "emotion": "sleepy",
+ "talk_pair": "162068415",
+ "intensity": 0.16,
+ "eyes": [
+  0.243,
+  0.39
+ ],
+ "mouth": [
+  0.331,
+  0.655,
+  0.693,
+  0.705
+ ],
+ "mouth_open": false,
+ "auto": true,
+ "family": "classic",
+ "pair_ok": false
+}

@@ -1,0 +1,22 @@
+{
+ "id": "7074864",
+ "name": "Winky",
+ "slug": "winky",
+ "texture_id": "7074856",
+ "emotion": "smug",
+ "talk_pair": null,
+ "intensity": 0.29,
+ "eyes": [
+  0.236,
+  0.364
+ ],
+ "mouth": [
+  0.305,
+  0.617,
+  0.698,
+  0.731
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

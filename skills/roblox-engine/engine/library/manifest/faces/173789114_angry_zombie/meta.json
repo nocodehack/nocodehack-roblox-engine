@@ -1,0 +1,22 @@
+{
+ "id": "173789114",
+ "name": "Angry Zombie",
+ "slug": "angry_zombie",
+ "texture_id": "168332015",
+ "emotion": "angry",
+ "talk_pair": null,
+ "intensity": 0.81,
+ "eyes": [
+  0.238,
+  0.44
+ ],
+ "mouth": [
+  0.295,
+  0.579,
+  0.719,
+  0.795
+ ],
+ "mouth_open": true,
+ "auto": false,
+ "family": "classic"
+}

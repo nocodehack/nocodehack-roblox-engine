@@ -1,0 +1,22 @@
+{
+ "id": "25166274",
+ "name": "Squiggle Mouth",
+ "slug": "squiggle_mouth",
+ "texture_id": "25165947",
+ "emotion": "scared",
+ "talk_pair": null,
+ "intensity": 0.38,
+ "eyes": [
+  0.214,
+  0.371
+ ],
+ "mouth": [
+  0.302,
+  0.61,
+  0.695,
+  0.733
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

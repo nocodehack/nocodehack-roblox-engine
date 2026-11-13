@@ -1,0 +1,22 @@
+{
+ "id": "7075089",
+ "name": "Whatchoo Talkin Bout",
+ "slug": "whatchoo_talkin_bout",
+ "texture_id": "7075077",
+ "emotion": "confused",
+ "talk_pair": null,
+ "intensity": 0.31,
+ "eyes": [
+  0.174,
+  0.381
+ ],
+ "mouth": [
+  0.433,
+  0.633,
+  0.548,
+  0.788
+ ],
+ "mouth_open": false,
+ "auto": true,
+ "family": "classic"
+}

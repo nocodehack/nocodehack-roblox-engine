@@ -1,0 +1,22 @@
+{
+ "id": "494291269",
+ "name": "Super Super Happy Face",
+ "slug": "super_super_happy_face",
+ "texture_id": "494290547",
+ "emotion": "joy",
+ "talk_pair": null,
+ "intensity": 0.73,
+ "eyes": [
+  0.262,
+  0.336
+ ],
+ "mouth": [
+  0.176,
+  0.426,
+  0.836,
+  0.793
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

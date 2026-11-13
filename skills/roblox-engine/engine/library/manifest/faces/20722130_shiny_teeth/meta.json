@@ -1,0 +1,22 @@
+{
+ "id": "20722130",
+ "name": "Shiny Teeth",
+ "slug": "shiny_teeth",
+ "texture_id": "20722053",
+ "emotion": "happy",
+ "talk_pair": null,
+ "intensity": 0.85,
+ "eyes": [
+  0.171,
+  0.431
+ ],
+ "mouth": [
+  0.288,
+  0.531,
+  0.745,
+  0.8
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

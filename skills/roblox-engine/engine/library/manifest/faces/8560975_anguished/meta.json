@@ -1,0 +1,22 @@
+{
+ "id": "8560975",
+ "name": "Anguished",
+ "slug": "anguished",
+ "texture_id": "8560912",
+ "emotion": "sad",
+ "talk_pair": null,
+ "intensity": 0.79,
+ "eyes": [
+  0.124,
+  0.369
+ ],
+ "mouth": [
+  0.307,
+  0.579,
+  0.695,
+  0.805
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

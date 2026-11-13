@@ -1,0 +1,261 @@
+{
+ "slug": "house_living_room",
+ "bounds": [
+  -11.50005,
+  11.50005,
+  -9.250049999999998,
+  9.250050000000002
+ ],
+ "pieces": [
+  {
+   "name": "house_living_room_houseInteriorFireplace_1",
+   "rect": [
+    -10.79985,
+    -6.799849999999999,
+    -8.34975,
+    -6.34975
+   ],
+   "top": 2.0,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "house_living_room_Model_2",
+   "rect": [
+    -8.9998,
+    -6.9998,
+    0.25005000000000166,
+    2.2500500000000017
+   ],
+   "top": 7.1999,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "house_living_room_Model_3",
+   "rect": [
+    -11.00005,
+    10.99995,
+    -9.249849999999999,
+    -8.749849999999999
+   ],
+   "top": 7.199900000000001,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "house_living_room_houseInteriorCoffeeTable_4",
+   "rect": [
+    -1.2498,
+    -1.0497999999999998,
+    3.3998500000000025,
+    3.5998500000000018
+   ],
+   "top": 0.7999000000000002,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "house_living_room_houseInteriorCoffeeTable_5",
+   "rect": [
+    -1.2498,
+    -1.0497999999999998,
+    1.8998500000000007,
+    2.0998500000000035
+   ],
+   "top": 0.7999000000000002,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "house_living_room_houseInteriorCoffeeTable_6",
+   "rect": [
+    -4.74975,
+    -4.54975,
+    3.3998500000000025,
+    3.5998500000000018
+   ],
+   "top": 0.7999000000000002,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "house_living_room_houseInteriorCoffeeTable_7",
+   "rect": [
+    -4.74975,
+    -4.54975,
+    1.8998500000000007,
+    2.0998500000000035
+   ],
+   "top": 0.7999000000000002,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "house_living_room_seat_8",
+   "rect": [
+    4.232875,
+    10.243225,
+    0.4821249999999999,
+    6.492475000000001
+   ],
+   "top": 1.6749999999999998,
+   "solid": true,
+   "seat": true
+  },
+  {
+   "name": "house_living_room_seat_9",
+   "rect": [
+    2.46525,
+    9.88965,
+    -1.285549999999997,
+    6.139050000000001
+   ],
+   "top": 2.0,
+   "solid": true,
+   "seat": true
+  },
+  {
+   "name": "house_living_room_seat_10",
+   "rect": [
+    2.4651,
+    10.2432,
+    -1.2855500000000006,
+    6.49255
+   ],
+   "top": 0.4,
+   "solid": true,
+   "seat": true
+  },
+  {
+   "name": "house_living_room_Model_11",
+   "rect": [
+    -11.49985,
+    -10.99985,
+    -9.250049999999998,
+    8.749950000000002
+   ],
+   "top": 7.199950000000001,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "house_living_room_seat_12",
+   "rect": [
+    -6.9994,
+    1.0006,
+    7.250200000000001,
+    7.750200000000001
+   ],
+   "top": 1.6749999999999998,
+   "solid": true,
+   "seat": true
+  },
+  {
+   "name": "house_living_room_seat_13",
+   "rect": [
+    -6.99935,
+    1.0004499999999998,
+    4.750000000000002,
+    7.250500000000001
+   ],
+   "top": 2.0,
+   "solid": true,
+   "seat": true
+  },
+  {
+   "name": "house_living_room_seat_14",
+   "rect": [
+    -6.9994499999999995,
+    1.00055,
+    4.750300000000001,
+    7.750300000000001
+   ],
+   "top": 0.4,
+   "solid": true,
+   "seat": true
+  },
+  {
+   "name": "house_living_room_houseInteriorFloorLamp_15",
+   "rect": [
+    -9.356,
+    -8.656,
+    5.199900000000001,
+    5.899900000000001
+   ],
+   "top": 3.0353499999999998,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "house_living_room_houseInteriorFloorLamp_16",
+   "rect": [
+    2.36798,
+    3.35792,
+    5.900680000000001,
+    6.890620000000002
+   ],
+   "top": 3.0353,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "house_living_room_Model_17",
+   "rect": [
+    -11.49995,
+    11.50005,
+    8.749850000000002,
+    9.249850000000002
+   ],
+   "top": 7.199950000000001,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "house_living_room_houseInteriorEndTable_18",
+   "rect": [
+    8.5999,
+    10.5999,
+    -3.650299999999998,
+    -1.6502999999999979
+   ],
+   "top": 0.9999000000000001,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "house_living_room_Model_19",
+   "rect": [
+    10.99995,
+    11.49995,
+    -9.250049999999998,
+    8.749950000000002
+   ],
+   "top": 7.199950000000001,
+   "solid": true,
+   "seat": false
+  }
+ ],
+ "spots": [
+  [
+   0.0,
+   0.0
+  ],
+  [
+   -10.5,
+   8.0
+  ],
+  [
+   10.5,
+   -8.0
+  ],
+  [
+   10.5,
+   8.0
+  ],
+  [
+   -10.5,
+   -6.0
+  ]
+ ]
+}

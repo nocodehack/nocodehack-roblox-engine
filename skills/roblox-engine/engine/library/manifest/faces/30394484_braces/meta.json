@@ -1,0 +1,22 @@
+{
+ "id": "30394484",
+ "name": "Braces",
+ "slug": "braces",
+ "texture_id": "30394483",
+ "emotion": "happy",
+ "talk_pair": null,
+ "intensity": 0.58,
+ "eyes": [
+  0.233,
+  0.371
+ ],
+ "mouth": [
+  0.295,
+  0.593,
+  0.712,
+  0.76
+ ],
+ "mouth_open": true,
+ "auto": false,
+ "family": "classic"
+}

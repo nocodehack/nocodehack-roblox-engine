@@ -1,0 +1,102 @@
+{
+  "title": "New kid",
+  "format": "pov",
+  "header": "POV: you are the new kid and the teacher picks you first",
+  "mood": "tense",
+  "cast": [
+    {
+      "name": "You",
+      "shirt": "#4A5FC1",
+      "pants": "#1B2A35",
+      "hair": "#5A3A22",
+      "hair_style": "short",
+      "face": "smile"
+    },
+    {
+      "name": "Teacher",
+      "shirt": "#7A4FA0",
+      "pants": "#1B2A35",
+      "hair": "#8A8A90",
+      "hair_style": "bun",
+      "face": "smile"
+    },
+    {
+      "name": "Zed",
+      "shirt": "#E8A33D",
+      "pants": "#1B2A35",
+      "hair": "#2A2A2E",
+      "hair_style": "spiky",
+      "face": "smug"
+    }
+  ],
+  "scenes": [
+    {
+      "set": {
+        "preset": "classroom2"
+      },
+      "seconds": 12,
+      "cast": [
+        {
+          "name": "You",
+          "at": [
+            0,
+            -6
+          ],
+          "yaw": 180
+        },
+        {
+          "name": "Teacher",
+          "at": [
+            0,
+            2
+          ],
+          "yaw": 0
+        },
+        {
+          "name": "Zed",
+          "at": [
+            -5,
+            0
+          ],
+          "yaw": 20
+        }
+      ],
+      "beats": [
+        {
+          "t": 1.2,
+          "who": "Teacher",
+          "face": "smile",
+          "talk": 1.4,
+          "say": "You. Up here."
+        },
+        {
+          "t": 3.5,
+          "who": "Zed",
+          "face": "laugh",
+          "look": "You"
+        },
+        {
+          "t": 5.0,
+          "who": "Teacher",
+          "face": "grin",
+          "talk": 2.0,
+          "say": "Read the first line."
+        },
+        {
+          "t": 8.0,
+          "who": "Zed",
+          "face": "o"
+        },
+        {
+          "t": 9.5,
+          "who": "Teacher",
+          "face": "joy"
+        }
+      ],
+      "camera": {
+        "mode": "pov",
+        "who": "You"
+      }
+    }
+  ]
+}

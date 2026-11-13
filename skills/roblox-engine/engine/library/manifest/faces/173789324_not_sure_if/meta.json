@@ -1,0 +1,22 @@
+{
+ "id": "173789324",
+ "name": "Not sure if...",
+ "slug": "not_sure_if",
+ "texture_id": "168332209",
+ "emotion": "neutral",
+ "talk_pair": null,
+ "intensity": 0.05,
+ "eyes": [
+  0.264,
+  0.338
+ ],
+ "mouth": [
+  0.298,
+  0.681,
+  0.702,
+  0.719
+ ],
+ "mouth_open": false,
+ "auto": false,
+ "family": "classic"
+}

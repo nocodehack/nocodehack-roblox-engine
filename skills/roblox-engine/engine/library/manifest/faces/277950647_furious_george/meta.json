@@ -1,0 +1,23 @@
+{
+ "id": "277950647",
+ "name": "Furious George",
+ "slug": "furious_george",
+ "texture_id": "277939506",
+ "emotion": "angry",
+ "talk_pair": "406001167",
+ "intensity": 0.9,
+ "eyes": [
+  0.171,
+  0.367
+ ],
+ "mouth": [
+  0.3,
+  0.657,
+  0.686,
+  0.755
+ ],
+ "mouth_open": false,
+ "auto": true,
+ "family": "classic",
+ "pair_ok": false
+}

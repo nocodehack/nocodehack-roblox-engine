@@ -1,0 +1,22 @@
+{
+ "id": "20010377",
+ "name": "Yawn",
+ "slug": "yawn",
+ "texture_id": "20010294",
+ "emotion": "sleepy",
+ "talk_pair": null,
+ "intensity": 0.39,
+ "eyes": [
+  0.212,
+  0.41
+ ],
+ "mouth": [
+  0.419,
+  0.545,
+  0.581,
+  0.724
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

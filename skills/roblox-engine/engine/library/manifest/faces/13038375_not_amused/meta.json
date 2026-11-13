@@ -1,0 +1,22 @@
+{
+ "id": "13038375",
+ "name": "Not Amused",
+ "slug": "not_amused",
+ "texture_id": "13038247",
+ "emotion": "disgust",
+ "talk_pair": null,
+ "intensity": 0.03,
+ "eyes": [
+  0.288,
+  0.367
+ ],
+ "mouth": [
+  0.395,
+  0.586,
+  0.586,
+  0.64
+ ],
+ "mouth_open": false,
+ "auto": true,
+ "family": "classic"
+}

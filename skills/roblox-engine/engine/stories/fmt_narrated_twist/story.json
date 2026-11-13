@@ -1,0 +1,95 @@
+{
+  "title": "Plant cameras",
+  "format": "narrated_twist",
+  "narrator": {
+    "voice": "Adam"
+  },
+  "captions": "word",
+  "mood": "tense",
+  "cast": [
+    {
+      "name": "Kid",
+      "shirt": "#2E9C9A",
+      "pants": "#1B2A35",
+      "hair": "#5A3A22",
+      "hair_style": "short",
+      "face": "smile"
+    },
+    {
+      "name": "Neighbor",
+      "shirt": "#7A4FA0",
+      "pants": "#1B2A35",
+      "hair": "#8A8A90",
+      "hair_style": "none",
+      "face": "smile"
+    }
+  ],
+  "scenes": [
+    {
+      "set": {
+        "preset": "living_room"
+      },
+      "seconds": 14,
+      "cast": [
+        {
+          "name": "Kid",
+          "at": [
+            -5,
+            -4
+          ],
+          "yaw": 20
+        },
+        {
+          "name": "Neighbor",
+          "at": [
+            5,
+            0
+          ],
+          "yaw": -40
+        }
+      ],
+      "beats": [
+        {
+          "t": 0.5,
+          "who": "Kid",
+          "narrate": "My neighbor asked me to water his plants, then I saw the *cameras*..."
+        },
+        {
+          "t": 4.5,
+          "who": "Kid",
+          "face": "worry"
+        },
+        {
+          "t": 6.5,
+          "who": "Kid",
+          "narrate": "Every one pointed at the *cookie jar*."
+        },
+        {
+          "t": 10.0,
+          "who": "Neighbor",
+          "face": "smug",
+          "freeze": {
+            "label": "THE JAR WAS THE TRAP",
+            "dur": 1.0
+          }
+        }
+      ],
+      "shots": [
+        {
+          "t": 0,
+          "kind": "medium",
+          "on": [
+            "Kid"
+          ]
+        },
+        {
+          "t": 9.8,
+          "kind": "close",
+          "on": [
+            "Neighbor"
+          ]
+        }
+      ]
+    }
+  ]
+}

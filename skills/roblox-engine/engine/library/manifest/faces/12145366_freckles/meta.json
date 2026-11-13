@@ -1,0 +1,22 @@
+{
+ "id": "12145366",
+ "name": "Freckles",
+ "slug": "freckles",
+ "texture_id": "12145059",
+ "emotion": "happy",
+ "talk_pair": null,
+ "intensity": 0.75,
+ "eyes": [
+  0.229,
+  0.517
+ ],
+ "mouth": [
+  0.302,
+  0.583,
+  0.698,
+  0.8
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

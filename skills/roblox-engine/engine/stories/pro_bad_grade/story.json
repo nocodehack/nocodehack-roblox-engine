@@ -1,0 +1,212 @@
+{
+  "title": "Bad grade",
+  "fps": 24,
+  "mood": "tense",
+  "cast": [
+    {
+      "name": "Sam",
+      "shirt": "#2E9C9A",
+      "pants": "#1B2A35",
+      "hair": "#5A3A22",
+      "hair_style": "lib:spiky_anime1",
+      "face": "worry",
+      "face_family": "drawn"
+    },
+    {
+      "name": "Mom",
+      "shirt": "#C4281C",
+      "pants": "#3A3A4A",
+      "hair": "#E8A33D",
+      "hair_style": "lib:ponytail3",
+      "face": "smile",
+      "face_family": "drawn"
+    }
+  ],
+  "scenes": [
+    {
+      "set": {
+        "preset": "bedroom"
+      },
+      "seconds": 7,
+      "cast": [
+        {
+          "name": "Sam",
+          "at": [
+            0,
+            -4
+          ],
+          "yaw": 0,
+          "face": "worry"
+        }
+      ],
+      "props": [
+        {
+          "name": "test",
+          "kind": "book",
+          "held_by": "Sam",
+          "hand": "R"
+        }
+      ],
+      "beats": [
+        {
+          "t": 0.3,
+          "who": "Sam",
+          "look": "test",
+          "face": "worry"
+        },
+        {
+          "t": 1.6,
+          "who": "Sam",
+          "face": "sad",
+          "talk": 1.5,
+          "say": "An F. She'll flip."
+        },
+        {
+          "t": 3.6,
+          "who": "Sam",
+          "face": "scared",
+          "talk": 1.5,
+          "say": "Hide it. Now.",
+          "exclaim": true
+        },
+        {
+          "t": 5.2,
+          "who": "Sam",
+          "face": "sheepish",
+          "pose": "arms_crossed"
+        }
+      ],
+      "shots": [
+        {
+          "t": 0,
+          "kind": "medium",
+          "on": [
+            "Sam"
+          ]
+        },
+        {
+          "t": 3.4,
+          "kind": "close",
+          "on": [
+            "Sam"
+          ]
+        }
+      ]
+    },
+    {
+      "set": {
+        "preset": "kitchen"
+      },
+      "seconds": 9,
+      "cast": [
+        {
+          "name": "Mom",
+          "at": [
+            0,
+            3
+          ],
+          "yaw": 180,
+          "face": "smile"
+        },
+        {
+          "name": "Sam",
+          "at": [
+            -8,
+            -6
+          ],
+          "yaw": 40,
+          "face": "worry"
+        }
+      ],
+      "props": [
+        {
+          "name": "test",
+          "kind": "book",
+          "held_by": "Sam",
+          "hand": "R"
+        }
+      ],
+      "beats": [
+        {
+          "t": 0.3,
+          "who": "Sam",
+          "walk": [
+            [
+              -3,
+              -4
+            ]
+          ],
+          "speed": 5
+        },
+        {
+          "t": 1.8,
+          "who": "Mom",
+          "turn": "Sam",
+          "face": "smile",
+          "talk": 1.5,
+          "say": "How was your test?"
+        },
+        {
+          "t": 3.6,
+          "who": "Sam",
+          "face": "sheepish",
+          "talk": 1.1,
+          "say": "Um... fine?"
+        },
+        {
+          "t": 5.0,
+          "who": "Mom",
+          "face": "angry",
+          "pose": "point_R",
+          "talk": 1.5,
+          "say": "What's behind your back?"
+        },
+        {
+          "t": 6.9,
+          "who": "Sam",
+          "pose": "cower",
+          "face": "scream"
+        }
+      ],
+      "shots": [
+        {
+          "t": 0,
+          "kind": "wide",
+          "on": [
+            "Sam",
+            "Mom"
+          ],
+          "keep_two": true
+        },
+        {
+          "t": 1.7,
+          "kind": "medium",
+          "on": [
+            "Mom"
+          ]
+        },
+        {
+          "t": 3.5,
+          "kind": "close",
+          "on": [
+            "Sam"
+          ]
+        },
+        {
+          "t": 4.9,
+          "kind": "medium",
+          "on": [
+            "Mom"
+          ]
+        },
+        {
+          "t": 6.8,
+          "kind": "medium",
+          "on": [
+            "Sam"
+          ]
+        }
+      ]
+    }
+  ]
+}

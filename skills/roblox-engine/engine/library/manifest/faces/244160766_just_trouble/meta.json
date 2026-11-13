@@ -1,0 +1,22 @@
+{
+ "id": "244160766",
+ "name": "Just Trouble",
+ "slug": "just_trouble",
+ "texture_id": "243755928",
+ "emotion": "smug",
+ "talk_pair": null,
+ "intensity": 0.51,
+ "eyes": [
+  0.195,
+  0.438
+ ],
+ "mouth": [
+  0.274,
+  0.579,
+  0.75,
+  0.695
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

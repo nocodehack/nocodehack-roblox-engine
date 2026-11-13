@@ -1,0 +1,213 @@
+{
+ "slug": "white_bedroom",
+ "bounds": [
+  -5.055625,
+  5.055625,
+  -4.5,
+  4.500000000000002
+ ],
+ "pieces": [
+  {
+   "name": "white_bedroom_Model_1",
+   "rect": [
+    3.055625,
+    5.055625,
+    -4.5,
+    -4.0
+   ],
+   "top": 7.0,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "white_bedroom_Model_2",
+   "rect": [
+    -4.944375,
+    -2.944375,
+    -4.5,
+    -4.0
+   ],
+   "top": 7.0,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "white_bedroom_Model_3",
+   "rect": [
+    4.555625,
+    5.055625,
+    -4.0,
+    4.5
+   ],
+   "top": 7.0,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "white_bedroom_Model_4",
+   "rect": [
+    -4.444375,
+    4.555625,
+    4.000000000000002,
+    4.500000000000002
+   ],
+   "top": 6.585,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "white_bedroom_Model_5",
+   "rect": [
+    -5.028875,
+    -4.528875,
+    -4.0,
+    4.5
+   ],
+   "top": 7.0,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "white_bedroom_white stuff of walls_6",
+   "rect": [
+    4.328474999999999,
+    4.476775,
+    3.9068250000000013,
+    4.093675000000001
+   ],
+   "top": 6.358775,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "white_bedroom_white stuff of walls_7",
+   "rect": [
+    -4.581475,
+    -4.433174999999999,
+    3.9068250000000013,
+    4.093675000000001
+   ],
+   "top": 6.358775,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "white_bedroom_c2_9",
+   "rect": [
+    -4.274825,
+    -2.4842250000000003,
+    2.8866500000000013,
+    3.921400000000002
+   ],
+   "top": 1.75325,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "white_bedroom_seat_10",
+   "rect": [
+    -3.478325,
+    2.8436749999999993,
+    -2.3206999999999987,
+    2.6528000000000027
+   ],
+   "top": 1.93615,
+   "solid": true,
+   "seat": true
+  },
+  {
+   "name": "white_bedroom_seat_11",
+   "rect": [
+    -3.478325,
+    2.843675,
+    -2.335699999999999,
+    -2.335699999999999
+   ],
+   "top": 1.93615,
+   "solid": true,
+   "seat": true
+  },
+  {
+   "name": "white_bedroom_seat_12",
+   "rect": [
+    2.858675,
+    2.858675,
+    -2.3206999999999987,
+    2.6528000000000027
+   ],
+   "top": 1.93615,
+   "solid": true,
+   "seat": true
+  },
+  {
+   "name": "white_bedroom_seat_13",
+   "rect": [
+    -3.478325,
+    2.843675,
+    2.6678000000000015,
+    2.6678000000000015
+   ],
+   "top": 1.93615,
+   "solid": true,
+   "seat": true
+  },
+  {
+   "name": "white_bedroom_Room_14",
+   "rect": [
+    -2.23135,
+    2.1807,
+    -1.800699999999999,
+    3.792100000000003
+   ],
+   "top": 1.306575,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "white_bedroom_wood_15",
+   "rect": [
+    -2.27915,
+    2.2142,
+    -1.823599999999999,
+    3.964825000000001
+   ],
+   "top": 2.814475,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "white_bedroom_c1_17",
+   "rect": [
+    2.466175,
+    4.256775,
+    2.8866500000000013,
+    3.921400000000002
+   ],
+   "top": 1.75325,
+   "solid": true,
+   "seat": false
+  }
+ ],
+ "spots": [
+  [
+   0.0,
+   -3.0
+  ],
+  [
+   3.5,
+   2.5
+  ],
+  [
+   3.5,
+   -1.5
+  ],
+  [
+   -3.5,
+   -3.5
+  ],
+  [
+   2.5,
+   -3.5
+  ]
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "id": "10770436",
+ "name": "Hypnoface",
+ "slug": "hypnoface",
+ "texture_id": "10747392",
+ "emotion": "silly",
+ "talk_pair": null,
+ "intensity": 0.31,
+ "eyes": [
+  0.212,
+  0.376
+ ],
+ "mouth": [
+  0.421,
+  0.593,
+  0.552,
+  0.712
+ ],
+ "mouth_open": false,
+ "auto": false,
+ "family": "bigeye"
+}

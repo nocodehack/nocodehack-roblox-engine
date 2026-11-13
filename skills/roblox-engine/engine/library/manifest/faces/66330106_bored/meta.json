@@ -1,0 +1,22 @@
+{
+ "id": "66330106",
+ "name": "Bored",
+ "slug": "bored",
+ "texture_id": "66329524",
+ "emotion": "sleepy",
+ "talk_pair": null,
+ "intensity": 0.22,
+ "eyes": [
+  0.267,
+  0.36
+ ],
+ "mouth": [
+  0.312,
+  0.638,
+  0.679,
+  0.771
+ ],
+ "mouth_open": false,
+ "auto": true,
+ "family": "classic"
+}

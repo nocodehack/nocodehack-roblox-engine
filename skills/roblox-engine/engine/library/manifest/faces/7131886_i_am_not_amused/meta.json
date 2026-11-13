@@ -1,0 +1,23 @@
+{
+ "id": "7131886",
+ "name": "I Am Not Amused",
+ "slug": "i_am_not_amused",
+ "texture_id": "7131857",
+ "emotion": "angry",
+ "talk_pair": "7076224",
+ "intensity": 0.8,
+ "eyes": [
+  0.117,
+  0.369
+ ],
+ "mouth": [
+  0.307,
+  0.579,
+  0.695,
+  0.805
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic",
+ "pair_ok": true
+}

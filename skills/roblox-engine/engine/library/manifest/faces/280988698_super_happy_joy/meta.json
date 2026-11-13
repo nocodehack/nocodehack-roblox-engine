@@ -1,0 +1,22 @@
+{
+ "id": "280988698",
+ "name": "Super Happy Joy",
+ "slug": "super_happy_joy",
+ "texture_id": "280987381",
+ "emotion": "joy",
+ "talk_pair": null,
+ "intensity": 1.0,
+ "eyes": [
+  0.148,
+  0.405
+ ],
+ "mouth": [
+  0.333,
+  0.571,
+  0.669,
+  0.795
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "bigeye"
+}

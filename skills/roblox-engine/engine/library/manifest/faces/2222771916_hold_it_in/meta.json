@@ -1,0 +1,22 @@
+{
+ "id": "2222771916",
+ "name": "Hold It In",
+ "slug": "hold_it_in",
+ "texture_id": "2222767231",
+ "emotion": "scared",
+ "talk_pair": null,
+ "intensity": 0.95,
+ "eyes": [
+  0.183,
+  0.367
+ ],
+ "mouth": [
+  0.293,
+  0.65,
+  0.686,
+  0.733
+ ],
+ "mouth_open": false,
+ "auto": true,
+ "family": "classic"
+}

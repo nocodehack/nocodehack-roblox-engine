@@ -1,0 +1,22 @@
+{
+ "id": "10907541",
+ "name": "Mr. Chuckles",
+ "slug": "mr_chuckles",
+ "texture_id": "10747810",
+ "emotion": "smug",
+ "talk_pair": null,
+ "intensity": 0.29,
+ "eyes": [
+  0.212,
+  0.374
+ ],
+ "mouth": [
+  0.379,
+  0.583,
+  0.664,
+  0.736
+ ],
+ "mouth_open": false,
+ "auto": true,
+ "family": "classic"
+}

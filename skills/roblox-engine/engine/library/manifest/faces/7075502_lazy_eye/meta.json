@@ -1,0 +1,22 @@
+{
+ "id": "7075502",
+ "name": "Lazy Eye",
+ "slug": "lazy_eye",
+ "texture_id": "7075492",
+ "emotion": "silly",
+ "talk_pair": null,
+ "intensity": 0.34,
+ "eyes": [
+  0.229,
+  0.36
+ ],
+ "mouth": [
+  0.305,
+  0.65,
+  0.695,
+  0.793
+ ],
+ "mouth_open": true,
+ "auto": false,
+ "family": "classic"
+}

@@ -1,0 +1,23 @@
+{
+ "id": "144075659",
+ "name": "Smile",
+ "slug": "smile",
+ "texture_id": "144080495",
+ "emotion": "happy",
+ "talk_pair": "209995366",
+ "intensity": 0.46,
+ "eyes": [
+  0.226,
+  0.36
+ ],
+ "mouth": [
+  0.305,
+  0.6,
+  0.695,
+  0.798
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic",
+ "pair_ok": false
+}

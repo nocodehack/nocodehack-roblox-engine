@@ -1,0 +1,22 @@
+{
+ "id": "7074836",
+ "name": "Classic Vampire",
+ "slug": "classic_vampire",
+ "texture_id": "7074827",
+ "emotion": "evil",
+ "talk_pair": null,
+ "intensity": 0.74,
+ "eyes": [
+  0.117,
+  0.369
+ ],
+ "mouth": [
+  0.326,
+  0.648,
+  0.688,
+  0.869
+ ],
+ "mouth_open": true,
+ "auto": false,
+ "family": "classic"
+}

@@ -1,0 +1,22 @@
+{
+ "id": "8329686",
+ "name": "Sinister",
+ "slug": "sinister",
+ "texture_id": "8329434",
+ "emotion": "evil",
+ "talk_pair": null,
+ "intensity": 0.42,
+ "eyes": [
+  0.24,
+  0.343
+ ],
+ "mouth": [
+  0.305,
+  0.579,
+  0.705,
+  0.757
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

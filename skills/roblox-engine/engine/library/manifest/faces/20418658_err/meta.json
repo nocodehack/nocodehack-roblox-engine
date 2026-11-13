@@ -1,0 +1,22 @@
+{
+ "id": "20418658",
+ "name": "Err...",
+ "slug": "err",
+ "texture_id": "20418518",
+ "emotion": "sheepish",
+ "talk_pair": null,
+ "intensity": 0.05,
+ "eyes": [
+  0.295,
+  0.402
+ ],
+ "mouth": [
+  0.436,
+  0.607,
+  0.552,
+  0.65
+ ],
+ "mouth_open": false,
+ "auto": true,
+ "family": "classic"
+}

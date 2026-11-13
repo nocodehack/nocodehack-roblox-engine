@@ -1,0 +1,777 @@
+{
+ "slug": "classroom_furniture_pack",
+ "bounds": [
+  -7.95434275,
+  7.95434275,
+  -8.7634625,
+  8.7634625
+ ],
+ "pieces": [
+  {
+   "name": "classroom_furniture_pack_CLASSROOM CHALKBOARD V1_1",
+   "rect": [
+    1.9660927499999998,
+    7.04109416,
+    5.7450375000000005,
+    5.9702375000000005
+   ],
+   "top": 2.825075,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_seat_3",
+   "rect": [
+    6.104342750000001,
+    7.323399159999999,
+    -4.4964875,
+    -2.7165374999999994
+   ],
+   "top": 1.70325142,
+   "solid": true,
+   "seat": true
+  },
+  {
+   "name": "classroom_furniture_pack_seat_6",
+   "rect": [
+    5.0669777499999995,
+    6.2801427499999996,
+    -4.2071125,
+    -3.2071124999999996
+   ],
+   "top": 1.7258,
+   "solid": true,
+   "seat": true
+  },
+  {
+   "name": "classroom_furniture_pack_Model_9",
+   "rect": [
+    -6.38834275,
+    -5.84435725,
+    -5.4635833125,
+    -5.2787175
+   ],
+   "top": 0.734275,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Model_10",
+   "rect": [
+    -7.08009275,
+    -6.536107249999999,
+    -5.4666833125,
+    -5.2818675
+   ],
+   "top": 0.734275,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Model_11",
+   "rect": [
+    -6.38829275,
+    -5.84435725,
+    -6.0278333125,
+    -5.8429675
+   ],
+   "top": 0.734275,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_water bottle_12",
+   "rect": [
+    -6.517657249999999,
+    -6.267657249999999,
+    -7.0821125,
+    -6.8321125
+   ],
+   "top": 0.7624,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_bunsen burner_16",
+   "rect": [
+    2.34849275,
+    2.69849275,
+    -6.5840125,
+    -6.1927625
+   ],
+   "top": 0.681525,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_buret_17",
+   "rect": [
+    1.59319275,
+    2.21819275,
+    -6.6562625,
+    -6.2312625
+   ],
+   "top": 1.355675,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Pot_23",
+   "rect": [
+    -0.58600725,
+    -0.1526322499999999,
+    -8.714012499999999,
+    -8.2807125
+   ],
+   "top": 0.3611249999999999,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Pot(Grass)_24",
+   "rect": [
+    -0.5138072499999999,
+    -0.22490724999999992,
+    -8.6418125,
+    -8.352912499999999
+   ],
+   "top": 0.5777999999999999,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Pot(Cactus)_25",
+   "rect": [
+    -1.3685572499999998,
+    -1.02570725,
+    -8.6872875,
+    -8.382537500000002
+   ],
+   "top": 0.8000499999999999,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Pot_26",
+   "rect": [
+    -1.4066572499999999,
+    -0.94948225,
+    -8.7634625,
+    -8.3063125
+   ],
+   "top": 0.3809499999999999,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_CLASSROOM BOOKSHELF V1_27",
+   "rect": [
+    -2.5641572499999996,
+    -0.01404861499999991,
+    -4.421312499999999,
+    -3.2203124999999995
+   ],
+   "top": 2.674125,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Model_28",
+   "rect": [
+    -1.5265072499999999,
+    -1.35155725,
+    -3.7713624999999995,
+    -3.3462625
+   ],
+   "top": 1.899125,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Model_29",
+   "rect": [
+    -2.4015572499999998,
+    -1.87660725,
+    -3.7713624999999995,
+    -3.3462625
+   ],
+   "top": 1.899125,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Model_30",
+   "rect": [
+    -1.7015572499999998,
+    -1.52655725,
+    -3.7713624999999995,
+    -3.3462625
+   ],
+   "top": 1.899125,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Model_31",
+   "rect": [
+    -1.8765572499999998,
+    -1.70155725,
+    -3.7713624999999995,
+    -3.3462625
+   ],
+   "top": 1.899125,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Model_32",
+   "rect": [
+    -0.35155724999999993,
+    -0.17650724999999992,
+    -3.7703624999999996,
+    -3.3452124999999997
+   ],
+   "top": 1.899125,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Model_33",
+   "rect": [
+    -1.2266072499999998,
+    -0.7016072499999999,
+    -3.7713624999999995,
+    -3.3456624999999995
+   ],
+   "top": 1.899125,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Model_34",
+   "rect": [
+    -0.52660725,
+    -0.35160724999999987,
+    -3.7703624999999996,
+    -3.3453625
+   ],
+   "top": 1.899125,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Model_35",
+   "rect": [
+    -0.7016072499999999,
+    -0.5266072499999999,
+    -3.7704624999999994,
+    -3.3453625
+   ],
+   "top": 1.899125,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Model_36",
+   "rect": [
+    -0.35155724999999993,
+    -0.17655724999999992,
+    -3.7703624999999996,
+    -3.3452624999999996
+   ],
+   "top": 1.199625,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Model_37",
+   "rect": [
+    -1.2265572499999997,
+    -0.7016072499999999,
+    -3.7712624999999997,
+    -3.3455125
+   ],
+   "top": 1.199625,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Model_38",
+   "rect": [
+    -0.52655725,
+    -0.3515572499999999,
+    -3.7702624999999994,
+    -3.3452624999999996
+   ],
+   "top": 1.199625,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Model_39",
+   "rect": [
+    -0.7016072499999999,
+    -0.5266072499999999,
+    -3.7704624999999994,
+    -3.3453625
+   ],
+   "top": 1.199625,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_sports water bottle_40",
+   "rect": [
+    -5.95945725,
+    -5.7027572499999994,
+    -7.922562499999999,
+    -7.6592625
+   ],
+   "top": 0.6919,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_water bottle_41",
+   "rect": [
+    -6.517657249999999,
+    -6.267657249999999,
+    -7.0821125,
+    -6.8321125
+   ],
+   "top": 0.7624,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_sports water bottle_42",
+   "rect": [
+    -5.933207249999999,
+    -5.66840725,
+    -7.3570625,
+    -7.0863625
+   ],
+   "top": 0.6919,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Model_45",
+   "rect": [
+    -7.95434275,
+    -7.410357249999999,
+    -5.9429333125,
+    -5.7580675
+   ],
+   "top": 0.734275,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Model_46",
+   "rect": [
+    -6.38829275,
+    -5.84435725,
+    -6.0278333125,
+    -5.8429675
+   ],
+   "top": 0.734275,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Model_47",
+   "rect": [
+    -7.08009275,
+    -6.536107249999999,
+    -6.0278333125,
+    -5.8429675
+   ],
+   "top": 0.734275,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Model_48",
+   "rect": [
+    -7.95434275,
+    -7.410357249999999,
+    -5.4666833125,
+    -5.2817675
+   ],
+   "top": 0.734275,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Model_49",
+   "rect": [
+    -6.38834275,
+    -5.84435725,
+    -5.4635833125,
+    -5.2787175
+   ],
+   "top": 0.734275,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_seat_53",
+   "rect": [
+    2.5519427500000003,
+    3.77099916,
+    -5.1488875,
+    -3.3689374999999995
+   ],
+   "top": 1.80070142,
+   "solid": true,
+   "seat": true
+  },
+  {
+   "name": "classroom_furniture_pack_seat_56",
+   "rect": [
+    1.5145777500000002,
+    2.72774275,
+    -4.8595125,
+    -3.8595124999999997
+   ],
+   "top": 1.82325,
+   "solid": true,
+   "seat": true
+  },
+  {
+   "name": "classroom_furniture_pack_Model_57",
+   "rect": [
+    -1.05391725,
+    -0.8468972499999999,
+    7.9636775,
+    8.1706975
+   ],
+   "top": 0.6026750000000001,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Model_58",
+   "rect": [
+    -1.06264575,
+    -0.78316875,
+    7.126449,
+    7.406026000000001
+   ],
+   "top": 0.9224749999999999,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Model_59",
+   "rect": [
+    -5.38385725,
+    -3.9945572499999993,
+    0.06536250000000032,
+    1.5617125000000005
+   ],
+   "top": 1.4615,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_seat_60",
+   "rect": [
+    -6.380507250000001,
+    -5.39300725,
+    6.422437500000001,
+    7.5599375
+   ],
+   "top": 0.887525,
+   "solid": true,
+   "seat": true
+  },
+  {
+   "name": "classroom_furniture_pack_Model_61",
+   "rect": [
+    -5.38385725,
+    -3.9945572499999993,
+    4.438562500000001,
+    5.9349125
+   ],
+   "top": 1.4615,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Model_62",
+   "rect": [
+    -4.011932249999999,
+    -3.88838225,
+    7.9622875,
+    8.1153875
+   ],
+   "top": 1.4615,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Model_63",
+   "rect": [
+    -5.383832249999999,
+    -5.2602822499999995,
+    7.9510875,
+    8.104187499999998
+   ],
+   "top": 1.4615,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_seat_64",
+   "rect": [
+    -6.380507250000001,
+    -5.39300725,
+    2.2841375000000004,
+    3.4217375000000003
+   ],
+   "top": 0.887525,
+   "solid": true,
+   "seat": true
+  },
+  {
+   "name": "classroom_furniture_pack_seat_65",
+   "rect": [
+    -6.380507250000001,
+    -5.39300725,
+    -1.3863624999999997,
+    -0.24881249999999966
+   ],
+   "top": 0.887525,
+   "solid": true,
+   "seat": true
+  },
+  {
+   "name": "classroom_furniture_pack_Model_66",
+   "rect": [
+    -4.011932249999999,
+    -3.88838225,
+    -1.8639124999999996,
+    -1.7108124999999998
+   ],
+   "top": 1.4615,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Model_67",
+   "rect": [
+    -5.383832249999999,
+    -5.2602822499999995,
+    -1.8639124999999996,
+    -1.7108124999999998
+   ],
+   "top": 1.4615,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Vials_68",
+   "rect": [
+    -4.154957249999999,
+    -2.90495725,
+    -7.4224749999999995,
+    -7.07241
+   ],
+   "top": 0.6500793100000001,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Microscope_69",
+   "rect": [
+    -2.1199572499999997,
+    -1.5199572499999998,
+    -7.677262499999999,
+    -6.952162499999999
+   ],
+   "top": 1.131215,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Cactus Pot_70",
+   "rect": [
+    0.2566427500000001,
+    0.6566927500000002,
+    1.6223375000000004,
+    2.0223375000000003
+   ],
+   "top": 0.700075,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Apple_71",
+   "rect": [
+    -0.2801072499999999,
+    -0.04617124999999991,
+    2.1890875000000003,
+    2.4084875000000006
+   ],
+   "top": 0.3513985150000001,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Water Bottle_74",
+   "rect": [
+    -1.55135725,
+    -1.25135725,
+    3.1662375000000003,
+    3.4662375
+   ],
+   "top": 0.710025,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Cardboard Box_75",
+   "rect": [
+    0.8842427500000002,
+    2.27554275,
+    2.1261875000000003,
+    3.1696875
+   ],
+   "top": 0.800125,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_seat_81",
+   "rect": [
+    3.78143634,
+    5.000742750000001,
+    -2.1662874999999993,
+    0.9636625000000003
+   ],
+   "top": 1.70340142,
+   "solid": true,
+   "seat": true
+  },
+  {
+   "name": "classroom_furniture_pack_seat_84",
+   "rect": [
+    4.79674275,
+    6.01005775,
+    -0.32886249999999967,
+    0.6711875000000004
+   ],
+   "top": 1.7260499999999999,
+   "solid": true,
+   "seat": true
+  },
+  {
+   "name": "classroom_furniture_pack_seat_85",
+   "rect": [
+    4.81734275,
+    6.03060775,
+    -1.6604624999999995,
+    -0.6604624999999996
+   ],
+   "top": 1.72595,
+   "solid": true,
+   "seat": true
+  },
+  {
+   "name": "classroom_furniture_pack_Medical Jar 2_86",
+   "rect": [
+    -3.45485725,
+    -3.0548572499999995,
+    -6.2974875,
+    -5.8974375
+   ],
+   "top": 0.60019,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Model_87",
+   "rect": [
+    1.46439443,
+    2.73889275,
+    7.8890625,
+    8.7634625
+   ],
+   "top": 0.969475,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_Medical Bottle 2_88",
+   "rect": [
+    -2.3550572499999998,
+    -2.05505725,
+    -6.247282499999999,
+    -5.9472425
+   ],
+   "top": 0.500185,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "classroom_furniture_pack_seat_89",
+   "rect": [
+    2.49949275,
+    3.71879916,
+    -2.1655374999999992,
+    0.9644125000000003
+   ],
+   "top": 1.70340142,
+   "solid": true,
+   "seat": true
+  },
+  {
+   "name": "classroom_furniture_pack_seat_92",
+   "rect": [
+    1.49017775,
+    2.70344275,
+    -1.8731124999999995,
+    -0.8730124999999996
+   ],
+   "top": 1.7261,
+   "solid": true,
+   "seat": true
+  },
+  {
+   "name": "classroom_furniture_pack_seat_93",
+   "rect": [
+    1.4696277500000001,
+    2.6828927499999997,
+    -0.5414624999999996,
+    0.45858750000000037
+   ],
+   "top": 1.72595,
+   "solid": true,
+   "seat": true
+  }
+ ],
+ "spots": [
+  [
+   0.0,
+   -0.5
+  ],
+  [
+   -7.0,
+   7.5
+  ],
+  [
+   7.0,
+   7.5
+  ],
+  [
+   -7.0,
+   -7.5
+  ],
+  [
+   7.0,
+   -7.5
+  ]
+ ]
+}

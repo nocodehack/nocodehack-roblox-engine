@@ -1,0 +1,22 @@
+{
+ "id": "7074764",
+ "name": "Chill",
+ "slug": "chill",
+ "texture_id": "7074749",
+ "emotion": "cool",
+ "talk_pair": null,
+ "intensity": 0.26,
+ "eyes": [
+  0.274,
+  0.343
+ ],
+ "mouth": [
+  0.305,
+  0.65,
+  0.695,
+  0.793
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

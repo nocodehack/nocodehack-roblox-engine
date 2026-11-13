@@ -1,0 +1,22 @@
+{
+ "id": "10831454",
+ "name": "eXtreme",
+ "slug": "extreme",
+ "texture_id": "10747652",
+ "emotion": "cool",
+ "talk_pair": null,
+ "intensity": 0.85,
+ "eyes": [
+  0.229,
+  0.507
+ ],
+ "mouth": [
+  0.302,
+  0.567,
+  0.698,
+  0.8
+ ],
+ "mouth_open": true,
+ "auto": false,
+ "family": "classic"
+}

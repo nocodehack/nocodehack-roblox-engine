@@ -1,0 +1,22 @@
+{
+ "id": "26424808",
+ "name": "Know-It-All Grin",
+ "slug": "know_it_all_grin",
+ "texture_id": "26424652",
+ "emotion": "smug",
+ "talk_pair": null,
+ "intensity": 0.79,
+ "eyes": [
+  0.236,
+  0.414
+ ],
+ "mouth": [
+  0.302,
+  0.567,
+  0.717,
+  0.8
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

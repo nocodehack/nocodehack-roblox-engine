@@ -1,0 +1,116 @@
+{
+  "title": "Charger hide",
+  "format": "skit",
+  "header": "when your little brother hides your charger and swears he is innocent",
+  "mood": "cheery",
+  "cast": [
+    {
+      "name": "Sis",
+      "shirt": "#2E9C9A",
+      "pants": "#1B2A35",
+      "hair": "#5A3A22",
+      "hair_style": "ponytail",
+      "face": "smile"
+    },
+    {
+      "name": "Bro",
+      "shirt": "#C4281C",
+      "pants": "#1B2A35",
+      "hair": "#E8A33D",
+      "hair_style": "spiky",
+      "face": "smug"
+    }
+  ],
+  "scenes": [
+    {
+      "set": {
+        "preset": "bedroom"
+      },
+      "seconds": 14,
+      "cast": [
+        {
+          "name": "Sis",
+          "at": [
+            -6,
+            -4
+          ],
+          "yaw": 30
+        },
+        {
+          "name": "Bro",
+          "at": [
+            6,
+            -3
+          ],
+          "yaw": -30,
+          "face": "smug"
+        }
+      ],
+      "beats": [
+        {
+          "t": 0.8,
+          "who": "Sis",
+          "face": "worry",
+          "look": "Bro"
+        },
+        {
+          "t": 2.2,
+          "who": "Sis",
+          "face": "angry",
+          "talk": 1.2,
+          "say": "Where is it?"
+        },
+        {
+          "t": 4.2,
+          "who": "Bro",
+          "face": "sheepish",
+          "talk": 1.2,
+          "say": "Not me."
+        },
+        {
+          "t": 6.5,
+          "who": "Sis",
+          "face": "angry",
+          "talk": 1.5,
+          "say": "Your pocket. Now."
+        },
+        {
+          "t": 9.5,
+          "who": "Bro",
+          "face": "scared"
+        },
+        {
+          "t": 11.5,
+          "who": "Sis",
+          "face": "joy",
+          "pose": "cheer"
+        }
+      ],
+      "shots": [
+        {
+          "t": 0,
+          "kind": "wide",
+          "on": [
+            "Sis",
+            "Bro"
+          ],
+          "keep_two": true
+        },
+        {
+          "t": 4.0,
+          "kind": "medium",
+          "on": [
+            "Bro"
+          ]
+        },
+        {
+          "t": 9.3,
+          "kind": "close",
+          "on": [
+            "Bro"
+          ]
+        }
+      ]
+    }
+  ]
+}

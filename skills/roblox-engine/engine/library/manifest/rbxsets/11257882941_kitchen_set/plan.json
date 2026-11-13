@@ -1,0 +1,177 @@
+{
+ "slug": "kitchen_set",
+ "bounds": [
+  -5.5,
+  5.5,
+  -4.25,
+  4.25
+ ],
+ "pieces": [
+  {
+   "name": "kitchen_set_Refrigerator_1",
+   "rect": [
+    2.7996,
+    5.3599000000000006,
+    -4.000299999999999,
+    -2.1346196000000006
+   ],
+   "top": 3.9772250000000002,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "kitchen_set_Microwave_2",
+   "rect": [
+    0.7796,
+    2.5296000000000003,
+    -3.812899999999999,
+    -2.6553499999999985
+   ],
+   "top": 2.12545,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "kitchen_set_Kitchen Counter_3",
+   "rect": [
+    0.7496,
+    2.7496,
+    -4.000399999999999,
+    -2.3003999999999962
+   ],
+   "top": 1.45045,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "kitchen_set_Kitchen Sink_4",
+   "rect": [
+    -1.2504,
+    0.7496,
+    -4.000449999999997,
+    -2.300499999999996
+   ],
+   "top": 1.61565,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "kitchen_set_Kitchen Counter_5",
+   "rect": [
+    -3.2504,
+    -1.2504,
+    -4.000399999999999,
+    -2.3003999999999962
+   ],
+   "top": 1.45045,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "kitchen_set_Kitchen Counter Corner_6",
+   "rect": [
+    -5.2504,
+    -3.2504,
+    -4.000399999999999,
+    -2.000399999999999
+   ],
+   "top": 1.45045,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "kitchen_set_Kitchen Island_7",
+   "rect": [
+    -2.2004,
+    0.4496,
+    -0.9377999999999993,
+    3.0622000000000007
+   ],
+   "top": 1.125,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "kitchen_set_Dishwasher_8",
+   "rect": [
+    -5.2505,
+    -3.4997883,
+    -2.000399999999999,
+    -0.00039999999999906777
+   ],
+   "top": 1.45045,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "kitchen_set_Oven_9",
+   "rect": [
+    -5.2505,
+    -3.4997883,
+    -0.00039999999999906777,
+    1.999600000000001
+   ],
+   "top": 1.5336375,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "kitchen_set_Kitchen Counter_10",
+   "rect": [
+    -5.2505,
+    -3.5505,
+    1.999600000000001,
+    3.999600000000001
+   ],
+   "top": 1.45045,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "kitchen_set_Walls (Delete This)_11",
+   "rect": [
+    -5.5,
+    -5.25,
+    -4.25,
+    4.25
+   ],
+   "top": 4.25075,
+   "solid": true,
+   "seat": false
+  },
+  {
+   "name": "kitchen_set_Walls (Delete This)_12",
+   "rect": [
+    -5.25,
+    5.5,
+    -4.25,
+    -4.0
+   ],
+   "top": 4.25075,
+   "solid": true,
+   "seat": false
+  }
+ ],
+ "spots": [
+  [
+   1.0,
+   0.0
+  ],
+  [
+   -3.0,
+   3.0
+  ],
+  [
+   4.5,
+   3.0
+  ],
+  [
+   -3.0,
+   -2.0
+  ],
+  [
+   4.5,
+   -1.5
+  ]
+ ]
+}

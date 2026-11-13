@@ -1,0 +1,22 @@
+{
+ "id": "29532363",
+ "name": "Vampire",
+ "slug": "vampire",
+ "texture_id": "29532362",
+ "emotion": "evil",
+ "talk_pair": null,
+ "intensity": 0.85,
+ "eyes": [
+  0.167,
+  0.417
+ ],
+ "mouth": [
+  0.31,
+  0.533,
+  0.693,
+  0.807
+ ],
+ "mouth_open": true,
+ "auto": false,
+ "family": "classic"
+}

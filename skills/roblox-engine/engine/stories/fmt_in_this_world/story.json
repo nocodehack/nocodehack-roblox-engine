@@ -1,0 +1,115 @@
+{
+  "title": "Shadow truth",
+  "format": "in_this_world",
+  "narrator": {
+    "voice": "Adam"
+  },
+  "captions": "word",
+  "mood": "chill",
+  "cards": [
+    {
+      "type": "title",
+      "text": "IN THIS WORLD...",
+      "scene": 1,
+      "t": 0.0,
+      "dur": 1.5
+    }
+  ],
+  "cast": [
+    {
+      "name": "Kid",
+      "shirt": "#2E9C9A",
+      "pants": "#1B2A35",
+      "hair": "#5A3A22",
+      "hair_style": "spiky",
+      "face": "smile"
+    },
+    {
+      "name": "Pal",
+      "shirt": "#E8A33D",
+      "pants": "#1B2A35",
+      "hair": "#2A2A2E",
+      "hair_style": "long",
+      "face": "smile"
+    }
+  ],
+  "scenes": [
+    {
+      "set": {
+        "preset": "park"
+      },
+      "seconds": 12,
+      "cast": [
+        {
+          "name": "Kid",
+          "at": [
+            0,
+            -4
+          ]
+        }
+      ],
+      "beats": [
+        {
+          "t": 1.6,
+          "who": "Kid",
+          "narrate": "In this world, everyone's *shadow* tells the truth."
+        },
+        {
+          "t": 6.0,
+          "who": "Kid",
+          "face": "worry"
+        }
+      ],
+      "crowd": {
+        "n": 10,
+        "area": "back"
+      }
+    },
+    {
+      "set": {
+        "preset": "park"
+      },
+      "seconds": 12,
+      "cast": [
+        {
+          "name": "Kid",
+          "at": [
+            -4,
+            -4
+          ]
+        },
+        {
+          "name": "Pal",
+          "at": [
+            4,
+            -3
+          ],
+          "yaw": -30
+        }
+      ],
+      "beats": [
+        {
+          "t": 0.5,
+          "who": "Pal",
+          "face": "smile",
+          "talk": 1.4,
+          "say": "I love your haircut."
+        },
+        {
+          "t": 3.0,
+          "who": "Kid",
+          "narrate": "So Kid learned the *truth* about that haircut."
+        },
+        {
+          "t": 6.5,
+          "who": "Kid",
+          "face": "scream"
+        }
+      ],
+      "crowd": {
+        "n": 8,
+        "area": "sides"
+      }
+    }
+  ]
+}

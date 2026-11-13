@@ -1,0 +1,22 @@
+{
+ "id": "7075434",
+ "name": "Toothy Grin",
+ "slug": "toothy_grin",
+ "texture_id": "7075412",
+ "emotion": "silly",
+ "talk_pair": null,
+ "intensity": 0.41,
+ "eyes": [
+  0.229,
+  0.369
+ ],
+ "mouth": [
+  0.321,
+  0.538,
+  0.681,
+  0.69
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

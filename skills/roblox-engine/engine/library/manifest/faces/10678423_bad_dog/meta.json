@@ -1,0 +1,23 @@
+{
+ "id": "10678423",
+ "name": "Bad Dog",
+ "slug": "bad_dog",
+ "texture_id": "10678229",
+ "emotion": "angry",
+ "talk_pair": "406001167",
+ "intensity": 0.67,
+ "eyes": [
+  0.255,
+  0.367
+ ],
+ "mouth": [
+  0.298,
+  0.469,
+  0.695,
+  0.802
+ ],
+ "mouth_open": true,
+ "auto": false,
+ "family": "classic",
+ "pair_ok": false
+}

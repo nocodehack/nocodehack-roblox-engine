@@ -1,0 +1,9 @@
+{
+  "name": "nocodehack",
+  "version": "1.0.0",
+  "description": "NoCodeHack Roblox Engine: animated Roblox-style Shorts from one line (story, animation, camera, sound). Free.",
+  "author": { "name": "NoCodeHack", "url": "https://www.youtube.com/@nocodehack" },
+  "homepage": "https://www.youtube.com/@nocodehack",
+  "license": "Apache-2.0",
+  "keywords": ["claude-code", "claude-skill", "roblox", "blender", "animation", "youtube-shorts"]
+}

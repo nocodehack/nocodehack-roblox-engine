@@ -1,0 +1,22 @@
+{
+ "id": "7506135",
+ "name": "Blinky",
+ "slug": "blinky",
+ "texture_id": "7506008",
+ "emotion": "sheepish",
+ "talk_pair": null,
+ "intensity": 0.54,
+ "eyes": [
+  0.229,
+  0.364
+ ],
+ "mouth": [
+  0.312,
+  0.571,
+  0.693,
+  0.795
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

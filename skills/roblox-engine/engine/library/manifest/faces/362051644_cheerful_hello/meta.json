@@ -1,0 +1,22 @@
+{
+ "id": "362051644",
+ "name": "Cheerful Hello",
+ "slug": "cheerful_hello",
+ "texture_id": "362050947",
+ "emotion": "happy",
+ "talk_pair": null,
+ "intensity": 0.61,
+ "eyes": [
+  0.226,
+  0.36
+ ],
+ "mouth": [
+  0.305,
+  0.586,
+  0.693,
+  0.798
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

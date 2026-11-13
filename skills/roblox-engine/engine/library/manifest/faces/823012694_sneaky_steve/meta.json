@@ -1,0 +1,23 @@
+{
+ "id": "823012694",
+ "name": "Sneaky Steve",
+ "slug": "sneaky_steve",
+ "texture_id": "823018334",
+ "emotion": "smug",
+ "talk_pair": "26424808",
+ "intensity": 0.47,
+ "eyes": [
+  0.138,
+  0.331
+ ],
+ "mouth": [
+  0.31,
+  0.633,
+  0.698,
+  0.805
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic",
+ "pair_ok": false
+}

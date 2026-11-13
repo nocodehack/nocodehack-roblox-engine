@@ -1,0 +1,22 @@
+{
+ "id": "209994270",
+ "name": "Face of Disappointment",
+ "slug": "face_of_disappointment",
+ "texture_id": "209712916",
+ "emotion": "sad",
+ "talk_pair": null,
+ "intensity": 0.41,
+ "eyes": [
+  0.176,
+  0.369
+ ],
+ "mouth": [
+  0.321,
+  0.59,
+  0.679,
+  0.75
+ ],
+ "mouth_open": false,
+ "auto": true,
+ "family": "classic"
+}

@@ -1,0 +1,22 @@
+{
+ "id": "12732366",
+ "name": "And then we'll take over the world!",
+ "slug": "and_then_we_ll_take_over",
+ "texture_id": "12732236",
+ "emotion": "evil",
+ "talk_pair": null,
+ "intensity": 0.33,
+ "eyes": [
+  0.219,
+  0.329
+ ],
+ "mouth": [
+  0.31,
+  0.593,
+  0.681,
+  0.769
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "classic"
+}

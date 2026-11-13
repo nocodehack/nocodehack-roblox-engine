@@ -1,0 +1,22 @@
+{
+ "id": "23261769",
+ "name": "Surprise!",
+ "slug": "surprise",
+ "texture_id": "23261768",
+ "emotion": "shock",
+ "talk_pair": null,
+ "intensity": 0.9,
+ "eyes": [
+  0.14,
+  0.393
+ ],
+ "mouth": [
+  0.302,
+  0.593,
+  0.698,
+  0.783
+ ],
+ "mouth_open": true,
+ "auto": true,
+ "family": "bigeye"
+}
