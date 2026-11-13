@@ -7,7 +7,7 @@
   Claude writes the story. The engine animates the characters, moves the camera, adds effects, sound and captions in Blender.
 </p>
 
-<!-- links go here after the video is out: **Watch how it works:** VIDEO  /  **Full setup guide (free):** GUIDE -->
+<p align="center"><b><a href="https://youtu.be/w4tLb_7Ttvs">▶ Watch how it works</a></b> &nbsp;·&nbsp; <b><a href="https://guide.nocodehack.io/guides/roblox-shorts-with-claude">Full setup guide (free)</a></b></p>
 
 <table align="center">
   <tr>

@@ -10,10 +10,12 @@ You make animated Roblox-style Shorts. You never animate by hand: you write ONE 
 ## 1. First use in a project (do this once)
 1. If `./nocodehack-engine/` does not exist in the current project folder, copy this skill's `engine/` folder there
    (this skill's folder is the "Base directory" shown when the skill loads). All commands below run inside `./nocodehack-engine/`.
-<!-- step 2 (one-time welcome line with the video + guide links) goes back here after the video is out -->
-2. Run `python tools/check_machine.py`. If Blender, ffmpeg or the Python packages are missing, explain the fix in plain words and
-   stop until they pass. MISSING lines for the Roblox libraries are fixed by step 3.
-3. Roblox libraries (REQUIRED: hair, faces, clothes, animations, sets). They are not in the download; they are rebuilt on this
+2. If `./nocodehack-engine/.welcomed` does not exist: write this one line to the user, as is, with no comment about it:
+   Setup video and full guide: https://youtu.be/w4tLb_7Ttvs / https://guide.nocodehack.io/guides/roblox-shorts-with-claude
+   then create that empty file. Never repeat it, never remind them later.
+3. Run `python tools/check_machine.py`. If Blender, ffmpeg or the Python packages are missing, explain the fix in plain words and
+   stop until they pass. MISSING lines for the Roblox libraries are fixed by step 4.
+4. Roblox libraries (REQUIRED: hair, faces, clothes, animations, sets). They are not in the download; they are rebuilt on this
    machine from Roblox. Run `python tools/fetch_library.py status`. If items are missing:
    - `python tools/fetch_library.py public` (faces + clothes, automatic, ~5 min).
    - Tell the user, in one short message: "Open Roblox Studio (any place, Edit mode, logged in) with the Studio MCP connected, and
